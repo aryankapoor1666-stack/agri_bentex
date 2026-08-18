@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BENTEX AGRO INDUSTRIES | Quality Sprayer Parts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <span>📞 +91 9266769669</span>
+        <a href="https://wa.me/919266769669" class="whatsapp-top" target="_blank">💬 WhatsApp Order</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header>
+        <div class="logo">
+            <h2>BENTEX</h2>
+            <small>AGRO INDUSTRIES</small>
+        </div>
+        <nav>
+            <a href="#" onclick="showPage('home')" class="nav-link active" id="nav-home">HOME</a>
+            <a href="#" onclick="showPage('power-sprayer')" class="nav-link" id="nav-power-sprayer">POWER SPRAYER PUMP</a>
+            <a href="#" onclick="showPage('htp-pump')" class="nav-link" id="nav-htp-pump">HTP PUMP</a>
+            <a href="#" onclick="showPage('battery-pump')" class="nav-link" id="nav-battery-pump">BATTERY PUMP</a>
+            <a href="#" onclick="showPage('contact')" class="nav-link" id="nav-contact">CONTACT</a>
+        </nav>
+        <a href="tel:+919266769669" class="btn-call-nav">CALL NOW</a>
+    </header>
+
+    <!-- Page: Home -->
+    <main id="page-home" class="page-content active">
+        <section class="hero">
+            <div class="tag">DELHI BASED SUPPLIER</div>
+            <h1>QUALITY SPRAYER PARTS<br>FOR EVERY FARM</h1>
+            <p>Delhi's trusted supplier of genuine & imported agriculture sprayer pump parts. Direct from manufacturer — no middleman.</p>
+            <div class="hero-buttons">
+                <a href="tel:+919266769669" class="btn-yellow">📞 CALL NOW</a>
+                <a href="https://wa.me/919266769669" class="btn-green" target="_blank">💬 WHATSAPP US</a>
+            </div>
+        </section>
+
+        <!-- Pump Categories -->
+        <section class="section">
+            <div class="sub-heading">OUR PUMP RANGE</div>
+            <h2>CHOOSE YOUR PUMP CATEGORY</h2>
+            <div class="card-grid">
+                <div class="category-card" onclick="showPage('power-sprayer')">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80" alt="Power Sprayer">
+                    <div class="card-overlay">
+                        <h3>Power Sprayer Pump Parts</h3>
+                        <p>TU-26, 139-F, GX-35 & engine components</p>
+                        <span class="link-text">VIEW ALL PARTS &rsaquo;</span>
+                    </div>
+                </div>
+                <div class="category-card" onclick="showPage('htp-pump')">
+                    <img src="https://images.unsplash.com/photo-1595838788320-1d54238e2d42?auto=format&fit=crop&w=600&q=80" alt="HTP Pump">
+                    <div class="card-overlay">
+                        <h3>HTP Pump Parts</h3>
+                        <p>High-tension pressure pump spare parts</p>
+                        <span class="link-text">VIEW ALL PARTS &rsaquo;</span>
+                    </div>
+                </div>
+                <div class="category-card" onclick="showPage('battery-pump')">
+                    <img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=600&q=80" alt="Battery Pump">
+                    <div class="card-overlay">
+                        <h3>Battery Pump Parts</h3>
+                        <p>Motors, chargers, nozzles, lances & accessories</p>
+                        <span class="link-text">VIEW ALL PARTS &rsaquo;</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="features-section">
+            <h2>WHY CHOOSE BENTEX</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4>Delhi Based Supplier</h4>
+                    <p>Serving farmers across North India from our Delhi base.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Genuine & Imported Parts</h4>
+                    <p>Authentic domestic & imported components — no duplicates.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Direct from Manufacturer</h4>
+                    <p>Cut out the middleman, get factory-direct pricing.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Call & WhatsApp Orders</h4>
+                    <p>Order instantly by call or WhatsApp — fast and easy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Direct Order CTA -->
+        <section class="banner-cta">
+            <span class="tag">DELHI, INDIA</span>
+            <h2>ORDER DIRECTLY — NO MIDDLEMAN</h2>
+            <p>Call or WhatsApp us to place your order. We supply genuine parts for all major sprayer pump brands across Delhi and North India.</p>
+            <div class="phone-number">+91 9266769669</div>
+            <div class="hero-buttons">
+                <a href="tel:+919266769669" class="btn-yellow">📞 CALL TO ORDER</a>
+                <a href="https://wa.me/919266769669" class="btn-green" target="_blank">💬 WHATSAPP ORDER</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Page: Power Sprayer Pump -->
+    <main id="page-power-sprayer" class="page-content">
+        <button class="back-btn" onclick="showPage('home')">&larr; Back to Home</button>
+        <div class="category-header">
+            <span class="tag">POWER SPRAYER PUMP</span>
+            <h1>Power Sprayer Pump Parts</h1>
+            <p>Genuine & imported spare parts for TU-26, 139-F, and GX-35 engines.</p>
+            <div class="hero-buttons">
+                <a href="tel:+919266769669" class="btn-yellow">📞 CALL TO ORDER</a>
+                <a href="https://wa.me/919266769669" class="btn-green" target="_blank">💬 WHATSAPP</a>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="search-power" onkeyup="filterParts('power-sprayer')" placeholder="Search Power Sprayer parts...">
+        </div>
+
+        <!-- Section: TU-26 -->
+        <div class="parts-catalog">
+            <h2 class="sub-category-title">TU-26 Parts</h2>
+            <div class="parts-grid" id="grid-tu26"></div>
+        </div>
+
+        <!-- Section: 139-F -->
+        <div class="parts-catalog">
+            <h2 class="sub-category-title">139-F Spare Parts</h2>
+            <div class="parts-grid" id="grid-139f"></div>
+        </div>
+
+        <!-- Section: GX-35 -->
+        <div class="parts-catalog">
+            <h2 class="sub-category-title">GX-35 Spare Parts</h2>
+            <div class="parts-grid" id="grid-gx35"></div>
+        </div>
+    </main>
+
+    <!-- Page: HTP Pump -->
+    <main id="page-htp-pump" class="page-content">
+        <button class="back-btn" onclick="showPage('home')">&larr; Back to Home</button>
+        <div class="category-header">
+            <span class="tag">HTP PUMP PARTS</span>
+            <h1>HTP Pump Parts</h1>
+            <p>High-pressure HTP pump spare parts — genuine & imported. Pistons, seals, valves, nozzles, and more.</p>
+            <div class="hero-buttons">
+                <a href="tel:+919266769669" class="btn-yellow">📞 CALL TO ORDER</a>
+                <a href="https://wa.me/919266769669" class="btn-green" target="_blank">💬 WHATSAPP</a>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="search-htp" onkeyup="filterParts('htp-pump')" placeholder="Search HTP Pump parts...">
+        </div>
+
+        <div class="parts-catalog">
+            <div class="parts-grid" id="grid-htp"></div>
+        </div>
+    </main>
+
+    <!-- Page: Battery Pump -->
+    <main id="page-battery-pump" class="page-content">
+        <button class="back-btn" onclick="showPage('home')">&larr; Back to Home</button>
+        <div class="category-header">
+            <span class="tag">BATTERY PUMP PARTS</span>
+            <h1>Battery Pump Parts</h1>
+            <p>Complete range of battery-operated sprayer pump spare parts — genuine & imported.</p>
+            <div class="hero-buttons">
+                <a href="tel:+919266769669" class="btn-yellow">📞 CALL TO ORDER</a>
+                <a href="https://wa.me/919266769669" class="btn-green" target="_blank">💬 WHATSAPP</a>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="search-battery" onkeyup="filterParts('battery-pump')" placeholder="Search Battery Pump parts...">
+        </div>
+
+        <div class="parts-catalog">
+            <div class="parts-grid" id="grid-battery"></div>
+        </div>
+    </main>
+
+    <!-- Page: Contact -->
+    <main id="page-contact" class="page-content">
+        <div class="contact-box">
+            <span class="tag">GET IN TOUCH</span>
+            <h1>Contact Us</h1>
+            <p>Order directly by call or WhatsApp. No middleman — factory-direct pricing from Delhi.</p>
+
+            <div class="contact-cards">
+                <div class="c-card">
+                    <div class="icon">📞</div>
+                    <h4>Call Us</h4>
+                    <p>+91 9266769669</p>
+                </div>
+                <div class="c-card">
+                    <div class="icon">💬</div>
+                    <h4>WhatsApp</h4>
+                    <p>+91 9266769669</p>
+                </div>
+                <div class="c-card">
+                    <div class="icon">📍</div>
+                    <h4>Location</h4>
+                    <p>13/317 Geeta Colony<br>Delhi — 110031</p>
+                </div>
+            </div>
+
+            <div class="timing-badge">🕒 Mon–Sat: 10:00 AM – 8:00 PM</div>
+            <div class="hero-buttons">
+                <a href="tel:+919266769669" class="btn-yellow">📞 CALL NOW</a>
+                <a href="https://wa.me/919266769669" class="btn-green" target="_blank">💬 WHATSAPP ORDER</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo">
+                    <h2>BENTEX</h2>
+                    <small>AGRO INDUSTRIES</small>
+                </div>
+                <p>Delhi's trusted supplier of genuine & imported agriculture sprayer parts.</p>
+            </div>
+            <div class="footer-col">
+                <h4>OUR PUMPS</h4>
+                <a href="#" onclick="showPage('power-sprayer')">Power Sprayer Pump</a>
+                <a href="#" onclick="showPage('htp-pump')">HTP Pump</a>
+                <a href="#" onclick="showPage('battery-pump')">Battery Pump</a>
+                <a href="#" onclick="showPage('contact')">Contact Us</a>
+            </div>
+            <div class="footer-col">
+                <h4>CONTACT & ORDER</h4>
+                <p>📍 Delhi, India</p>
+                <p>📞 +91 9266769669</p>
+                <p>💬 WhatsApp Order</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Bentex Agro Industries. All rights reserved. | Delhi, India — Genuine & Imported Sprayer Parts
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
