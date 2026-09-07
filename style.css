@@ -712,3 +712,19 @@ summary { cursor: pointer; padding: 12px 0; }
     .enquiry-notice { bottom: calc(90px + env(safe-area-inset-bottom)); }
     .enquiry-actions > * { width: 100%; }
 }
+
+/* Bentex Agro Industries brand mark */
+.logo a { display: block; line-height: 0; }
+.logo img {
+    display: block;
+    width: 148px;
+    height: 66px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    background: #fff;
+}
+.footer-col .logo img { width: 132px; height: 60px; }
+@media (max-width: 600px) {
+    .logo img { width: 132px; height: 58px; }
+}

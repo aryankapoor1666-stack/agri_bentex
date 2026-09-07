@@ -244,3 +244,10 @@ Then check `categories/power-sprayer.html?group=GX-35&q=starter` (two results).
   page structure and 222 catalogue cards.
 - Refresh the local server with a hard reload (`Cmd+Shift+R`) before checking the
   Contact and Enquiry pages so the corrected stylesheet is not cached.
+
+### Brand logo update — 2026-09-08
+
+- Added the supplied Bentex Agro Industries logo as a local asset at
+  `images/site/bentex-agro-logo.jpeg`.
+- Replaced the text-only header and footer brand marks on all 228 generated pages.
+- Added responsive logo sizing for desktop and mobile layouts.
