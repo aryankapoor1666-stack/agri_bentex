@@ -728,3 +728,21 @@ summary { cursor: pointer; padding: 12px 0; }
 @media (max-width: 600px) {
     .logo img { width: 132px; height: 58px; }
 }
+
+/* Use the supplied circular mark beside the readable wordmark. */
+.logo a { display: flex; align-items: center; gap: 10px; }
+.logo img.logo-mark,
+.footer-col .logo img.logo-mark {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: transparent;
+}
+.logo-copy { display: block; }
+.logo-copy h2 { margin: 0; }
+.logo-copy small { display: block; }
+@media (max-width: 600px) {
+    .logo img.logo-mark,
+    .footer-col .logo img.logo-mark { width: 38px; height: 38px; }
+}
