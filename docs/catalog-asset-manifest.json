@@ -1,0 +1,2888 @@
+[
+  {
+    "id": "TU26-001",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 1,
+      "itemNumber": 1,
+      "name": "CARBURATOR TU-26",
+      "media": "word/media/image1.jpeg"
+    },
+    "image": "images/catalog/tu26-001.jpeg",
+    "sha256": "e012d45cf04c6a6d4f8b54526039879a5bbac6bb04bd588f60fed162a30c731c"
+  },
+  {
+    "id": "TU26-002",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 2,
+      "itemNumber": 2,
+      "name": "CYLINDER ASSEMBLY TU-26",
+      "media": "word/media/image3.jpeg"
+    },
+    "image": "images/catalog/tu26-002.jpeg",
+    "sha256": "d4858f3aab286cec0241a7652be1cd364310d3ba507141eb3e91d323be644939"
+  },
+  {
+    "id": "TU26-003",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 3,
+      "itemNumber": 3,
+      "name": "IGNITION COIL TU-26",
+      "media": "word/media/image5.jpeg"
+    },
+    "image": "images/catalog/tu26-003.jpeg",
+    "sha256": "485c931b28bffd4da5e055e18dbb1633f8b61c49ba18dba534d55709395a52b2"
+  },
+  {
+    "id": "TU26-004",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 4,
+      "itemNumber": 4,
+      "name": "PISTON ASSEMBLY FOR TU-26",
+      "media": "word/media/image7.jpeg"
+    },
+    "image": "images/catalog/tu26-004.jpeg",
+    "sha256": "e6418ff525f57e8b5e1b1e6c52c1aaa64035f34859de68463a730e8de5dd40b7"
+  },
+  {
+    "id": "TU26-005",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 5,
+      "itemNumber": 5,
+      "name": "CLUTCH SHOE 2 STROKE",
+      "media": "word/media/image9.png"
+    },
+    "image": "images/catalog/tu26-005.png",
+    "sha256": "705002b9faf3d0b358e6f51fbbda877eeba4d8f5618e2da701cfe8dffce355a1"
+  },
+  {
+    "id": "TU26-006",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 6,
+      "itemNumber": 6,
+      "name": "CLUTCH DRUM 2 STROKE",
+      "media": "word/media/image11.jpeg"
+    },
+    "image": "images/catalog/tu26-006.jpeg",
+    "sha256": "a1a16ee2f523bbfabec10af087b119140cf33faedec4ea198fdbca31d3321514"
+  },
+  {
+    "id": "TU26-007",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 7,
+      "itemNumber": 7,
+      "name": "MUFFLER FOR TU-26",
+      "media": "word/media/image13.jpeg"
+    },
+    "image": "images/catalog/tu26-007.jpeg",
+    "sha256": "586a0408a05286f1bc414b684ec505b877c6b6fb2d16bf401cfe3f9994c7f969"
+  },
+  {
+    "id": "TU26-008",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 8,
+      "itemNumber": 8,
+      "name": "PISTON RING FOR TU-26",
+      "media": "word/media/image15.jpeg"
+    },
+    "image": "images/catalog/tu26-008.jpeg",
+    "sha256": "e4476d413de6b3a67ed8e8c44be12643724e24cbc8ba69c39c024aa44a3e4913"
+  },
+  {
+    "id": "TU26-009",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 9,
+      "itemNumber": 9,
+      "name": "CRANK SHAFT TU-26",
+      "media": "word/media/image17.jpeg"
+    },
+    "image": "images/catalog/tu26-009.jpeg",
+    "sha256": "53da1c348d1736db4e176af9b7ed807b4bd1df92e95e1b01b37debe7cacf7013"
+  },
+  {
+    "id": "TU26-010",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 10,
+      "itemNumber": 10,
+      "name": "FLY WHEEL TU-26",
+      "media": "word/media/image19.jpeg"
+    },
+    "image": "images/catalog/tu26-010.jpeg",
+    "sha256": "0872ca288d56e70cd1af4949bf957513745ba1148b66c9992c68c8de1ae6465b"
+  },
+  {
+    "id": "TU26-011",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 11,
+      "itemNumber": 11,
+      "name": "NORMAL DELIVERY PIPE",
+      "media": "word/media/image21.jpeg"
+    },
+    "image": "images/catalog/tu26-011.jpeg",
+    "sha256": "ca56ee50e2068b1343b453d0f16f222b9fb8932c64e27e5aad8c517b90883dd7"
+  },
+  {
+    "id": "TU26-012",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 1,
+      "itemNumber": 12,
+      "name": "DELIVERY PIPE WITH TWISTER",
+      "media": "word/media/image2.jpeg"
+    },
+    "image": "images/catalog/tu26-012.jpeg",
+    "sha256": "54335a59d1807fdb875638c6dc559b27f431afe54c503f7fc158e0229005a0e0"
+  },
+  {
+    "id": "TU26-013",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 2,
+      "itemNumber": 13,
+      "name": "60CM BAND BRASS GUN",
+      "media": "word/media/image4.jpeg"
+    },
+    "image": "images/catalog/tu26-013.jpeg",
+    "sha256": "2348d5d7e89c0e95f8e8c975266edb28ce65ed6c97f1bbbff2bd26de6ea08294"
+  },
+  {
+    "id": "TU26-014",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 3,
+      "itemNumber": 14,
+      "name": "60CM BRASS GUN",
+      "media": "word/media/image6.jpeg"
+    },
+    "image": "images/catalog/tu26-014.jpeg",
+    "sha256": "9170f3e43218fc3f088923930333f2b41abb69d1a4c494b9fda0f1c75dae57d8"
+  },
+  {
+    "id": "TU26-015",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 4,
+      "itemNumber": 15,
+      "name": "90CM BRASS GUN",
+      "media": "word/media/image8.jpeg"
+    },
+    "image": "images/catalog/tu26-015.jpeg",
+    "sha256": "f516f64ff86a6ce629ac63019fd057a49d9d02a6ba5b910a93e65b497db4da6f"
+  },
+  {
+    "id": "TU26-016",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 5,
+      "itemNumber": 16,
+      "name": "90CM BAND BRASS GUN",
+      "media": "word/media/image10.jpeg"
+    },
+    "image": "images/catalog/tu26-016.jpeg",
+    "sha256": "73b49ac874f6e3a6be2f76c52e40327b936b5e7d6418f7036f8982445b8d9612"
+  },
+  {
+    "id": "TU26-017",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 6,
+      "itemNumber": 17,
+      "name": "TU-26 STARTER NORMAL",
+      "media": "word/media/image12.jpeg"
+    },
+    "image": "images/catalog/tu26-017.jpeg",
+    "sha256": "24b16b68810617241c981e7bda6823bdd3a1599e1da2f36b338568630264780f"
+  },
+  {
+    "id": "TU26-018",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 7,
+      "itemNumber": 18,
+      "name": "TU-26 STARTER 6/4",
+      "media": "word/media/image14.jpeg"
+    },
+    "image": "images/catalog/tu26-018.jpeg",
+    "sha256": "edede3126b915611e10f12e3c8bb78c10e977e1a645f742e0c8382151154243e"
+  },
+  {
+    "id": "TU26-019",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 8,
+      "itemNumber": 19,
+      "name": "TU-26 STARTER 4/4",
+      "media": "word/media/image16.jpeg"
+    },
+    "image": "images/catalog/tu26-019.jpeg",
+    "sha256": "cfb0320ccd4535199384a9a408c02cdc61a239f3397fc7852b083c7bc7940038"
+  },
+  {
+    "id": "TU26-020",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 9,
+      "itemNumber": 20,
+      "name": "THROTTLE LEVER ASSY. NEW TYPE 767",
+      "media": "word/media/image18.jpeg"
+    },
+    "image": "images/catalog/tu26-020.jpeg",
+    "sha256": "5c83c5993742f97aabc06d74e6c10b1181f610ec99f063b65a869227b6ddf841"
+  },
+  {
+    "id": "TU26-021",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 10,
+      "itemNumber": 21,
+      "name": "THROTTLE LEVER ASSY. 767",
+      "media": "word/media/image20.jpeg"
+    },
+    "image": "images/catalog/tu26-021.jpeg",
+    "sha256": "4ea1212429fb2976a8a2f38c48022995af65d93fdabb1d8cfd55f18a4429edf3"
+  },
+  {
+    "id": "TU26-022",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 1,
+      "row": 11,
+      "itemNumber": 22,
+      "name": "8.5MM ROLL {100m ROLL}",
+      "media": "word/media/image22.jpeg"
+    },
+    "image": "images/catalog/tu26-022.jpeg",
+    "sha256": "fd9b6adfb235668e641c1a3a2f39fe13ea275bf356a1cbe90613785c1835f3d8"
+  },
+  {
+    "id": "TU26-023",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 1,
+      "itemNumber": 23,
+      "name": "GUN CAP SET",
+      "media": "word/media/image23.jpeg"
+    },
+    "image": "images/catalog/tu26-023.jpeg",
+    "sha256": "181651ad12d094551c78533ca19210f716ce5a3fcf87705864d49e784b7f9ad9"
+  },
+  {
+    "id": "TU26-024",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 2,
+      "itemNumber": 24,
+      "name": "STOP SWITCH",
+      "media": "word/media/image25.jpeg"
+    },
+    "image": "images/catalog/tu26-024.jpeg",
+    "sha256": "a97d62f0ff7f638c31b59482d458ff5660064060220bc98cd885f8545e5f696a"
+  },
+  {
+    "id": "TU26-025",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 3,
+      "itemNumber": 25,
+      "name": "EARTH WIRE RED",
+      "media": "word/media/image27.jpeg"
+    },
+    "image": "images/catalog/tu26-025.jpeg",
+    "sha256": "9c0e6bb41db07a8003201767f48b4f3c795a8348009b184e5614856c7bdda82b"
+  },
+  {
+    "id": "TU26-026",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 4,
+      "itemNumber": 26,
+      "name": "PETROL FILTER",
+      "media": "word/media/image29.jpeg"
+    },
+    "image": "images/catalog/tu26-026.jpeg",
+    "sha256": "8e0d2211037f4a2507dc9cfd2957a0a0ef911d7434d16144378195e59c990e40"
+  },
+  {
+    "id": "TU26-027",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 5,
+      "itemNumber": 27,
+      "name": "ACC. WIRE TU-26",
+      "media": "word/media/image31.jpeg"
+    },
+    "image": "images/catalog/tu26-027.jpeg",
+    "sha256": "cdbd2a827c85678a1cca3c2eca3b1e6fd4a4d16888d6c6181e703fb95aacc843"
+  },
+  {
+    "id": "TU26-028",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 6,
+      "itemNumber": 28,
+      "name": "LEFT AND RIGT DRAINAGE CHAMBER",
+      "media": "word/media/image33.jpeg"
+    },
+    "image": "images/catalog/tu26-028.jpeg",
+    "sha256": "adff607f5b7eb8bbb4aceac6201eccb6cadb8288e59eac7a530f6eb8ce0defc1"
+  },
+  {
+    "id": "TU26-029",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 7,
+      "itemNumber": 29,
+      "name": "LEFT AND RIGHT CYLINDER BLOCK",
+      "media": "word/media/image35.jpeg"
+    },
+    "image": "images/catalog/tu26-029.jpeg",
+    "sha256": "8572741613b18fc53cfea0f60f30ee8f6dd37b454acb8c266c7face664e56c9f"
+  },
+  {
+    "id": "TU26-030",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 8,
+      "itemNumber": 30,
+      "name": "LEFT AND RIGHT INLET CHAMBER",
+      "media": "word/media/image37.jpeg"
+    },
+    "image": "images/catalog/tu26-030.jpeg",
+    "sha256": "d2d893b4feb28d6905b77e40096b5e6fc3212967d4fbe6e3c0717cb2815c6287"
+  },
+  {
+    "id": "TU26-031",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 9,
+      "itemNumber": 31,
+      "name": "ACC. LEVER YELLOW & BLACK",
+      "media": "word/media/image39.jpeg"
+    },
+    "image": "images/catalog/tu26-031.jpeg",
+    "sha256": "9e51b0887f632b697483368a522f97c7c2ecdfac49c73e29e7f048e7409374d1"
+  },
+  {
+    "id": "TU26-032",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 1,
+      "itemNumber": 32,
+      "name": "RED HANDLE",
+      "media": "word/media/image24.jpeg"
+    },
+    "image": "images/catalog/tu26-032.jpeg",
+    "sha256": "edf7003a12a70fe7143a9637c664b20af49a96c2aa3f8a2b2f4024728f15c5f4"
+  },
+  {
+    "id": "TU26-033",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 2,
+      "itemNumber": 33,
+      "name": "GRAND",
+      "media": "word/media/image26.jpeg"
+    },
+    "image": "images/catalog/tu26-033.jpeg",
+    "sha256": "2abe04da7fe6991fa4f807e1a85e235ea0a2ba7e989d932a0b8d14f2a758e6d7"
+  },
+  {
+    "id": "TU26-034",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 3,
+      "itemNumber": 34,
+      "name": "GREASE RING FOR POWER SPRAYER",
+      "media": "word/media/image28.jpeg"
+    },
+    "image": "images/catalog/tu26-034.jpeg",
+    "sha256": "908c535a89c41916dc24da860640b21c16bff60faeb476f8a510405121f10cf9"
+  },
+  {
+    "id": "TU26-035",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 4,
+      "itemNumber": 35,
+      "name": "INSULATOR 2 STROKE",
+      "media": "word/media/image30.jpeg"
+    },
+    "image": "images/catalog/tu26-035.jpeg",
+    "sha256": "7c204f7c95e9e1475202c9327ec98781a8f72980b1cb7496c7d0587d9af9109e"
+  },
+  {
+    "id": "TU26-036",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 5,
+      "itemNumber": 36,
+      "name": "PETROL PIPE YELLOW",
+      "media": "word/media/image32.jpeg"
+    },
+    "image": "images/catalog/tu26-036.jpeg",
+    "sha256": "37663c09c7f57cbbfece0a308636a2b293bfa45659b8a2e2d2107f4a9ae4f575"
+  },
+  {
+    "id": "TU26-037",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 6,
+      "itemNumber": 37,
+      "name": "PETROL PIPE BLACK",
+      "media": "word/media/image34.jpeg"
+    },
+    "image": "images/catalog/tu26-037.jpeg",
+    "sha256": "ace98b2018d2def5032b53710177ba50d9bd5d8ff2b144d2efa84646f8d247b6"
+  },
+  {
+    "id": "TU26-038",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 7,
+      "itemNumber": 38,
+      "name": "RUBBER FOR PETROL PIPE",
+      "media": "word/media/image36.jpeg"
+    },
+    "image": "images/catalog/tu26-038.jpeg",
+    "sha256": "159846a2338688e7f864a8c748b838ea02cfead9aec9839cabe19bfcee99d525"
+  },
+  {
+    "id": "TU26-039",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 8,
+      "itemNumber": 39,
+      "name": "PETROL PIPE ASSY.",
+      "media": "word/media/image38.jpeg"
+    },
+    "image": "images/catalog/tu26-039.jpeg",
+    "sha256": "cddf789b3057904caa70489e1cedeeab29a460ad2cb790e729d7b69a10e0d3b9"
+  },
+  {
+    "id": "TU26-040",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 2,
+      "row": 9,
+      "itemNumber": 40,
+      "name": "ITALIAN GUN",
+      "media": "word/media/image40.jpeg"
+    },
+    "image": "images/catalog/tu26-040.jpeg",
+    "sha256": "03de7515b095e12d00bc15a776636420c84c25d4f8f89d4e8b1ec8d56d4654d5"
+  },
+  {
+    "id": "TU26-041",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 1,
+      "itemNumber": 41,
+      "name": "S BAND SMALL",
+      "media": "word/media/image41.jpeg"
+    },
+    "image": "images/catalog/tu26-041.jpeg",
+    "sha256": "046c4b01a02242da2f45b71cdaaf6c9e2b9d0de66dcb59fd10013349576e0e9f"
+  },
+  {
+    "id": "TU26-042",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 2,
+      "itemNumber": 42,
+      "name": "S BAND BIG",
+      "media": "word/media/image43.jpeg"
+    },
+    "image": "images/catalog/tu26-042.jpeg",
+    "sha256": "cfd27744919ccf80c18e9890cd3281b99aa2767e7737fe5815092159891be6ce"
+  },
+  {
+    "id": "TU26-043",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 3,
+      "itemNumber": 43,
+      "name": "BIG CAP SET FOR LANCE",
+      "media": "word/media/image45.jpeg"
+    },
+    "image": "images/catalog/tu26-043.jpeg",
+    "sha256": "fa5055b59454bd8f29713ced65f9db473f375a2fd266b050d83d8011286b0672"
+  },
+  {
+    "id": "TU26-044",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 4,
+      "itemNumber": 44,
+      "name": "SMALL CAP SET FOR LANCE",
+      "media": "word/media/image47.jpeg"
+    },
+    "image": "images/catalog/tu26-044.jpeg",
+    "sha256": "f8e47f688d6ffe7240821eeae20199b7a4836549192295f210144deb224d0975"
+  },
+  {
+    "id": "TU26-045",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 5,
+      "itemNumber": 45,
+      "name": "PULLY STARTER SMALL",
+      "media": "word/media/image49.jpeg"
+    },
+    "image": "images/catalog/tu26-045.jpeg",
+    "sha256": "5475e6c44571df80bc2a594f5684862b7b0f043ca6f6318964d4b560df74a941"
+  },
+  {
+    "id": "TU26-046",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 6,
+      "itemNumber": 46,
+      "name": "PULLY STARTER BIG",
+      "media": "word/media/image51.jpeg"
+    },
+    "image": "images/catalog/tu26-046.jpeg",
+    "sha256": "9ba17a749c0c4e8f49103b5d6266e6d049968bfea19f5509fc1a03e6af9e36b6"
+  },
+  {
+    "id": "TU26-047",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 7,
+      "itemNumber": 47,
+      "name": "PLUG CAP WITH SPRING",
+      "media": "word/media/image53.jpeg"
+    },
+    "image": "images/catalog/tu26-047.jpeg",
+    "sha256": "e2f5ab8df1e0a7644c23934022b60702b384c88f2bf65461f25eb6d343c8ebad"
+  },
+  {
+    "id": "TU26-048",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 8,
+      "itemNumber": 48,
+      "name": "PUNCHING MACHINE",
+      "media": "word/media/image55.jpeg"
+    },
+    "image": "images/catalog/tu26-048.jpeg",
+    "sha256": "fdc2c7a32df06b961533d59a1d765f88c75e0daa31a8c5d9b170e3f1a3a94d9b"
+  },
+  {
+    "id": "TU26-049",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 9,
+      "itemNumber": 49,
+      "name": "VALVE ASSY. 16,18MM",
+      "media": "word/media/image57.jpeg"
+    },
+    "image": "images/catalog/tu26-049.jpeg",
+    "sha256": "e4ae70498bd1b7b3ac8913ec5848a438e0f3f99ba66d8ad79998c2ed0282111c"
+  },
+  {
+    "id": "TU26-050",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 10,
+      "itemNumber": 50,
+      "name": "VALVE ASSY 16,18MM",
+      "media": "word/media/image59.jpeg"
+    },
+    "image": "images/catalog/tu26-050.jpeg",
+    "sha256": "e01b6ac7a7f52a2c7f50525310d452f2b1715d267357f533fdb56ce95474132f"
+  },
+  {
+    "id": "TU26-051",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 11,
+      "itemNumber": 51,
+      "name": "PRESSURE CONTROL ASSY.",
+      "media": "word/media/image61.jpeg"
+    },
+    "image": "images/catalog/tu26-051.jpeg",
+    "sha256": "d6695c547ce583b9e632b3236b48f83dd5b4e5c80f61b82f9b85e5d334b02001"
+  },
+  {
+    "id": "TU26-052",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 1,
+      "itemNumber": 52,
+      "name": "RED NOZZLE SMALL {BRASS}",
+      "media": "word/media/image42.jpeg"
+    },
+    "image": "images/catalog/tu26-052.jpeg",
+    "sha256": "7ed4a1eb857dc9779ad2e836486742fb3002f5f98e18672e68ebca7dbbcea238"
+  },
+  {
+    "id": "TU26-053",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 2,
+      "itemNumber": 53,
+      "name": "RED NOZZLE BIG {BRASS}",
+      "media": "word/media/image44.jpeg"
+    },
+    "image": "images/catalog/tu26-053.jpeg",
+    "sha256": "106f9b5d08284d2bb56d003269b224b343fe0c07e0fea7e6179962d5d672df75"
+  },
+  {
+    "id": "TU26-054",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 3,
+      "itemNumber": 54,
+      "name": "OIL SEAL FOR CRANK 12*30*7",
+      "media": "word/media/image46.jpeg"
+    },
+    "image": "images/catalog/tu26-054.jpeg",
+    "sha256": "2b5609cfe5d2eb78bbb54e9b674625ef7feb04f7618b48848dd782b4fe44bae7"
+  },
+  {
+    "id": "TU26-055",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 4,
+      "itemNumber": 55,
+      "name": "OIL SEAL FOR PLUNGER 18*28*8",
+      "media": "word/media/image48.jpeg"
+    },
+    "image": "images/catalog/tu26-055.jpeg",
+    "sha256": "be91068493989c9f0c2c739be08b22a162d2724a6f8452b09c07b96e7942ee95"
+  },
+  {
+    "id": "TU26-056",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 5,
+      "itemNumber": 56,
+      "name": "OIL SEAL FOR CRANK 12*22*7",
+      "media": "word/media/image50.jpeg"
+    },
+    "image": "images/catalog/tu26-056.jpeg",
+    "sha256": "274c1a5d4f09490848fe9e13c4703309263bebf7e6cd29cb22b403f590f92a94"
+  },
+  {
+    "id": "TU26-057",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 6,
+      "itemNumber": 57,
+      "name": "OIL BUBBLE",
+      "media": "word/media/image52.jpeg"
+    },
+    "image": "images/catalog/tu26-057.jpeg",
+    "sha256": "d0926df0a4001cbcd1333233170e94ced22382c6055004e3e74765205bb0262c"
+  },
+  {
+    "id": "TU26-058",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 7,
+      "itemNumber": 58,
+      "name": "WHITE RING",
+      "media": "word/media/image54.jpeg"
+    },
+    "image": "images/catalog/tu26-058.jpeg",
+    "sha256": "104a358600ffb20c18c8c5691619ebade85000b941c6be8e1a91f81e01b813c1"
+  },
+  {
+    "id": "TU26-059",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 8,
+      "itemNumber": 59,
+      "name": "V PACKING 18,16MM RED/BLACK",
+      "media": "word/media/image56.jpeg"
+    },
+    "image": "images/catalog/tu26-059.jpeg",
+    "sha256": "56cd153adc77462b2b2da81018298cd1bebbddec41708873b271f64fab2860c4"
+  },
+  {
+    "id": "TU26-060",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 9,
+      "itemNumber": 60,
+      "name": "VALVE PACKING RED 16,18MM",
+      "media": "word/media/image58.jpeg"
+    },
+    "image": "images/catalog/tu26-060.jpeg",
+    "sha256": "cd3f2d3bb29b7986fa4e6d87e96ca9e8efc2c1c87613e48acb70a0093752ed75"
+  },
+  {
+    "id": "TU26-061",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 10,
+      "itemNumber": 61,
+      "name": "VALVE PACKING BALCK 16,18MM",
+      "media": "word/media/image60.jpeg"
+    },
+    "image": "images/catalog/tu26-061.jpeg",
+    "sha256": "4f429908c332a084f1177068f6c819d634e082fb587f21557722e425ab7aa3c7"
+  },
+  {
+    "id": "TU26-062",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 3,
+      "row": 11,
+      "itemNumber": 62,
+      "name": "GRAND HARD RING",
+      "media": "word/media/image62.jpeg"
+    },
+    "image": "images/catalog/tu26-062.jpeg",
+    "sha256": "ee6ffb0ea166e6954d346bd4edf64b152e4817c5b613317f9bcac776cabb7966"
+  },
+  {
+    "id": "TU26-063",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 1,
+      "itemNumber": 63,
+      "name": "3 WAY LANCE",
+      "media": "word/media/image63.jpeg"
+    },
+    "image": "images/catalog/tu26-063.jpeg",
+    "sha256": "4cc19fe6073500b6edfb7afc7e870456ac3348187e04552c24d98be6c0a8d7e0"
+  },
+  {
+    "id": "TU26-064",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 2,
+      "itemNumber": 64,
+      "name": "60CM EXTENTION",
+      "media": "word/media/image65.jpeg"
+    },
+    "image": "images/catalog/tu26-064.jpeg",
+    "sha256": "b6d959ea199282d6522a2c19e279e5cdb13124b6b38c4cbd9a42bf6e7a008350"
+  },
+  {
+    "id": "TU26-065",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 3,
+      "itemNumber": 65,
+      "name": "PLUG SPANNER",
+      "media": "word/media/image67.jpeg"
+    },
+    "image": "images/catalog/tu26-065.jpeg",
+    "sha256": "b31bc338b5ffacdebab7a8f8074932037f0683fe41c3d1c6ab4794a67c184110"
+  },
+  {
+    "id": "TU26-066",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 4,
+      "itemNumber": 66,
+      "name": "OIL GLASS",
+      "media": "word/media/image69.jpeg"
+    },
+    "image": "images/catalog/tu26-066.jpeg",
+    "sha256": "895a572bc087740116c8578570bfef8d6310626315b4c4079f1d1153395382f8"
+  },
+  {
+    "id": "TU26-067",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 5,
+      "itemNumber": 67,
+      "name": "BUTTER CUP",
+      "media": "word/media/image71.jpeg"
+    },
+    "image": "images/catalog/tu26-067.jpeg",
+    "sha256": "e9d180e54ffd6f6f0f67c2bb82c2163793b96c4d8b1ffe83d25eb46425d1de1d"
+  },
+  {
+    "id": "TU26-068",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 6,
+      "itemNumber": 68,
+      "name": "SS CONNECTOR",
+      "media": "word/media/image73.jpeg"
+    },
+    "image": "images/catalog/tu26-068.jpeg",
+    "sha256": "1bff2259d8a87aba6681f863b93dc252713ffebb1b4c007b2af633716882d26a"
+  },
+  {
+    "id": "TU26-069",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 7,
+      "itemNumber": 69,
+      "name": "ELBOW BIG BRASS",
+      "media": "word/media/image75.jpeg"
+    },
+    "image": "images/catalog/tu26-069.jpeg",
+    "sha256": "b0ca114573847cd96ef2a2e7c754717ccc95b2e940c7c38b0e992ba014f7605c"
+  },
+  {
+    "id": "TU26-070",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 8,
+      "itemNumber": 70,
+      "name": "ELBOW SMALL BRASS",
+      "media": "word/media/image77.jpeg"
+    },
+    "image": "images/catalog/tu26-070.jpeg",
+    "sha256": "e6479721438e70f331f885fbbbf801da93c71106f8b4b8a3678c46098be27bcc"
+  },
+  {
+    "id": "TU26-071",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 9,
+      "itemNumber": 71,
+      "name": "LONG ABSORBER",
+      "media": "word/media/image79.jpeg"
+    },
+    "image": "images/catalog/tu26-071.jpeg",
+    "sha256": "8eeb9203ce6743a15246d56b4007894fccca2daba39c5652525e4a8a35ef980e"
+  },
+  {
+    "id": "TU26-072",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 10,
+      "itemNumber": 72,
+      "name": "SHORT ABSORBER",
+      "media": "word/media/image81.jpeg"
+    },
+    "image": "images/catalog/tu26-072.jpeg",
+    "sha256": "9293c75241a7d3848094b889cef69dba0fd6b19c7fcb39561b68943b511aff24"
+  },
+  {
+    "id": "TU26-073",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 1,
+      "itemNumber": 73,
+      "name": "W4 WASHER",
+      "media": "word/media/image64.jpeg"
+    },
+    "image": "images/catalog/tu26-073.jpeg",
+    "sha256": "13bc41036ed000cdec7faf02cee6df82ece9311e2a071a5ef11dd78bf9171dc9"
+  },
+  {
+    "id": "TU26-074",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 2,
+      "itemNumber": 74,
+      "name": "W6 WASHER",
+      "media": "word/media/image66.jpeg"
+    },
+    "image": "images/catalog/tu26-074.jpeg",
+    "sha256": "54ef700f0d4c4d874d54b2f7886b569bc19496211460d4b4b7a30b0061c188ac"
+  },
+  {
+    "id": "TU26-075",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 3,
+      "itemNumber": 75,
+      "name": "WAVE WASHER SS FOR PLUNGER",
+      "media": "word/media/image68.jpeg"
+    },
+    "image": "images/catalog/tu26-075.jpeg",
+    "sha256": "9630dfce926b6e524ff2ab3a13e5dc359192369f86d5a32e5687f3fdcb87ada3"
+  },
+  {
+    "id": "TU26-076",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 4,
+      "itemNumber": 76,
+      "name": "WAVE WASHER 4 STROKE CLUTCH BOLT",
+      "media": "word/media/image70.jpeg"
+    },
+    "image": "images/catalog/tu26-076.jpeg",
+    "sha256": "91760380df17e585a7417e3a67cce81757daded9681ebc17a50f66908f0663ad"
+  },
+  {
+    "id": "TU26-077",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 5,
+      "itemNumber": 77,
+      "name": "WAVE WASHER 2 STROKE CLUTCH BOLT",
+      "media": "word/media/image72.jpeg"
+    },
+    "image": "images/catalog/tu26-077.jpeg",
+    "sha256": "64968fd03d3f19ac37fe4ab510e0e018d959704efeebae09dc76fd66d104dde5"
+  },
+  {
+    "id": "TU26-078",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 6,
+      "itemNumber": 78,
+      "name": "CLUTCH SHOE BOLT WITH WASHER",
+      "media": "word/media/image74.jpeg"
+    },
+    "image": "images/catalog/tu26-078.jpeg",
+    "sha256": "084f84520fa13bb1db3ca673fe6420beffc183a1efae516ee01b1b6536ae8bca"
+  },
+  {
+    "id": "TU26-079",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 7,
+      "itemNumber": 79,
+      "name": "HOSE CLIP 12 MM",
+      "media": "word/media/image76.jpeg"
+    },
+    "image": "images/catalog/tu26-079.jpeg",
+    "sha256": "9ed8796c499425b1e51cc3572d96c7e39458fe0c5f672bd8a158775ac927d9b8"
+  },
+  {
+    "id": "TU26-080",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 8,
+      "itemNumber": 80,
+      "name": "HOSE CLIP 18MM",
+      "media": "word/media/image78.jpeg"
+    },
+    "image": "images/catalog/tu26-080.jpeg",
+    "sha256": "ade993c8206d4508c11c64f2d910683479d7017d18c4bbb7040ed2b435840c72"
+  },
+  {
+    "id": "TU26-081",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 9,
+      "itemNumber": 81,
+      "name": "LOCK NUT",
+      "media": "word/media/image80.jpeg"
+    },
+    "image": "images/catalog/tu26-081.jpeg",
+    "sha256": "2a8a40fd671e5704601fde637aa4b128268748d36b9fc7767e149292a2c2004e"
+  },
+  {
+    "id": "TU26-082",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 4,
+      "row": 10,
+      "itemNumber": 82,
+      "name": "BOLT ASSY. FOR BELT",
+      "media": "word/media/image82.jpeg"
+    },
+    "image": "images/catalog/tu26-082.jpeg",
+    "sha256": "a659a233ec6c47e714f31ea596826c46a4da1dda9f2a2b985c93dbfb06c450f1"
+  },
+  {
+    "id": "TU26-083",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 1,
+      "itemNumber": 83,
+      "name": "BACK SEAT SCREW",
+      "media": "word/media/image83.jpeg"
+    },
+    "image": "images/catalog/tu26-083.jpeg",
+    "sha256": "d07b5ca0c240df33843cf36a131de13e6084c72990a89ec0628521ea6ef4b06a"
+  },
+  {
+    "id": "TU26-084",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 2,
+      "itemNumber": 84,
+      "name": "RECOIL SCREW FOR TU-26",
+      "media": "word/media/image85.jpeg"
+    },
+    "image": "images/catalog/tu26-084.jpeg",
+    "sha256": "0f18f203d1c5ef7c928591375e425c0358eefd8250b4ad78f4d778f0844da4c7"
+  },
+  {
+    "id": "TU26-085",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 3,
+      "itemNumber": 85,
+      "name": "RECOIL SCREW FOR EASY",
+      "media": "word/media/image85.jpeg"
+    },
+    "image": "images/catalog/tu26-085.jpeg",
+    "sha256": "0f18f203d1c5ef7c928591375e425c0358eefd8250b4ad78f4d778f0844da4c7"
+  },
+  {
+    "id": "TU26-086",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 4,
+      "itemNumber": 86,
+      "name": "GEAR BOX SCREW",
+      "media": "word/media/image86.jpeg"
+    },
+    "image": "images/catalog/tu26-086.jpeg",
+    "sha256": "4725c4de9075507db0da1fbcd5c429bad771792fa0db09ec6ad43681575ecbb9"
+  },
+  {
+    "id": "TU26-087",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 5,
+      "itemNumber": 87,
+      "name": "CYLINDER BOLT",
+      "media": "word/media/image87.jpeg"
+    },
+    "image": "images/catalog/tu26-087.jpeg",
+    "sha256": "d882d9255a255ecf0d85b1a4e0bb20d21246f721d4203676d38d80c566535770"
+  },
+  {
+    "id": "TU26-088",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 6,
+      "itemNumber": 88,
+      "name": "COIL SCREW",
+      "media": "word/media/image88.jpeg"
+    },
+    "image": "images/catalog/tu26-088.jpeg",
+    "sha256": "118dd9f5f3cc2289c25cab08bed38f81caf72df5b9cc52302d1f6506fb12e3b5"
+  },
+  {
+    "id": "TU26-089",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 7,
+      "itemNumber": 89,
+      "name": "CYLENSER BOLT SHORT",
+      "media": "word/media/image89.jpeg"
+    },
+    "image": "images/catalog/tu26-089.jpeg",
+    "sha256": "731cc8215174086262e988b391e95c7f1870da581fbc13a620765b66e0d11f36"
+  },
+  {
+    "id": "TU26-090",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 8,
+      "itemNumber": 90,
+      "name": "CYLENSER BOLT LONG",
+      "media": "word/media/image89.jpeg"
+    },
+    "image": "images/catalog/tu26-090.jpeg",
+    "sha256": "731cc8215174086262e988b391e95c7f1870da581fbc13a620765b66e0d11f36"
+  },
+  {
+    "id": "TU26-091",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 9,
+      "itemNumber": 91,
+      "name": "CARB. BOLT",
+      "media": "word/media/image89.jpeg"
+    },
+    "image": "images/catalog/tu26-091.jpeg",
+    "sha256": "731cc8215174086262e988b391e95c7f1870da581fbc13a620765b66e0d11f36"
+  },
+  {
+    "id": "TU26-092",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 10,
+      "itemNumber": 92,
+      "name": "PUMP BOLT LONG",
+      "media": "word/media/image90.jpeg"
+    },
+    "image": "images/catalog/tu26-092.jpeg",
+    "sha256": "9efa19d8fcc7461760e490ece7cbbf66a9872004e6b26f11ef99cc4c9ee68ff8"
+  },
+  {
+    "id": "TU26-093",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 5,
+      "row": 1,
+      "itemNumber": 93,
+      "name": "BUSH SS AND NON SS",
+      "media": "word/media/image84.jpeg"
+    },
+    "image": "images/catalog/tu26-093.jpeg",
+    "sha256": "b068902fd77f1b41656e96bd2655a5b92cd94b1bf50536eb8c765e8efd18274a"
+  },
+  {
+    "id": "139F-001",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 1,
+      "itemNumber": 1,
+      "name": "CARBURATOR 139-F",
+      "media": "word/media/image91.jpeg"
+    },
+    "image": "images/catalog/139f-001.jpeg",
+    "sha256": "7cd766a9091e6a2dfedc5dfd790a476b03b7c1b902d156ad7dc33f6f6f85b6b5"
+  },
+  {
+    "id": "139F-002",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 2,
+      "itemNumber": 2,
+      "name": "CRANKCASE 139-F",
+      "media": "word/media/image93.jpeg"
+    },
+    "image": "images/catalog/139f-002.jpeg",
+    "sha256": "7aa52a8b2c92b2bc002300dd591648c0a618a7a2e8be6762724bc1aece0d624b"
+  },
+  {
+    "id": "139F-003",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 3,
+      "itemNumber": 3,
+      "name": "CRANKSHAFT 139-F",
+      "media": "word/media/image95.jpeg"
+    },
+    "image": "images/catalog/139f-003.jpeg",
+    "sha256": "577c5638b6f2e1d0a3079164ad40f9f1e4215ec63c86541fd4f7acc3ca883f08"
+  },
+  {
+    "id": "139F-004",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 4,
+      "itemNumber": 4,
+      "name": "PISTON ASSY. 139-F",
+      "media": "word/media/image97.jpeg"
+    },
+    "image": "images/catalog/139f-004.jpeg",
+    "sha256": "918b5be7ace44b318817c34012ad1807497a51e2c8a8e131e8010ad379f2cb6a"
+  },
+  {
+    "id": "139F-005",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 5,
+      "itemNumber": 5,
+      "name": "IGNITION COIL 139-F",
+      "media": "word/media/image99.jpeg"
+    },
+    "image": "images/catalog/139f-005.jpeg",
+    "sha256": "da3ceaa64fcdfed4d4621a3d6e2c1633ed2c2875a3144cd32f75fa1f4484b5aa"
+  },
+  {
+    "id": "139F-006",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 6,
+      "itemNumber": 6,
+      "name": "CLUTCH DRUM 4 STROKE",
+      "media": "word/media/image101.jpeg"
+    },
+    "image": "images/catalog/139f-006.jpeg",
+    "sha256": "762937305c1def31dfa220d4df8455e873ca50ca825482a64b5797ee98fb1411"
+  },
+  {
+    "id": "139F-007",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 7,
+      "itemNumber": 7,
+      "name": "CLUTCH SHOE 4 STROKE",
+      "media": "word/media/image102.jpeg"
+    },
+    "image": "images/catalog/139f-007.jpeg",
+    "sha256": "4b0efebec7cd56c825d2f64cf3ac9b41271300531b967b68e995f0c08277eb24"
+  },
+  {
+    "id": "139F-008",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 8,
+      "itemNumber": 8,
+      "name": "TAPET VALVE 139-F",
+      "media": "word/media/image104.jpeg"
+    },
+    "image": "images/catalog/139f-008.jpeg",
+    "sha256": "7e5567dff2369a38f4a2b13f736493b729eec486bf4a4ee9cfefed4c3d35afbd"
+  },
+  {
+    "id": "139F-009",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 9,
+      "itemNumber": 9,
+      "name": "MUFFLER 139-F",
+      "media": "word/media/image106.jpeg"
+    },
+    "image": "images/catalog/139f-009.jpeg",
+    "sha256": "0f14c833408251f285361cdf2bddb8753e88d7d82f15411c35e41ab5bfdc5018"
+  },
+  {
+    "id": "139F-010",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 10,
+      "itemNumber": 10,
+      "name": "FLY WHEEL 139-F",
+      "media": "word/media/image108.jpeg"
+    },
+    "image": "images/catalog/139f-010.jpeg",
+    "sha256": "764035543e636809b4ff2ede58df18dc423bf341d9c87904fadac64b9c417da2"
+  },
+  {
+    "id": "139F-011",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 1,
+      "itemNumber": 11,
+      "name": "GREY STARTER 139-F",
+      "media": "word/media/image92.jpeg"
+    },
+    "image": "images/catalog/139f-011.jpeg",
+    "sha256": "ec33f1e99fa8c19da59c9a379540884ba980121d479e8faf6b8de36f461042a4"
+  },
+  {
+    "id": "139F-012",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 2,
+      "itemNumber": 12,
+      "name": "139-H STARTER",
+      "media": "word/media/image94.jpeg"
+    },
+    "image": "images/catalog/139f-012.jpeg",
+    "sha256": "c0c1ab15e39a1375f0850dbbc3b67070d21b0977e23c190c5f78bbbbcfd62e70"
+  },
+  {
+    "id": "139F-013",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 3,
+      "itemNumber": 13,
+      "name": "BLACK STARTER 139-F",
+      "media": "word/media/image96.jpeg"
+    },
+    "image": "images/catalog/139f-013.jpeg",
+    "sha256": "627e182d03ae64d3ca27e9c89b9c2c4d5245303a9f97acc4d9745edaf47a6c10"
+  },
+  {
+    "id": "139F-014",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 4,
+      "itemNumber": 14,
+      "name": "CAM WHEEL 139-F",
+      "media": "word/media/image98.jpeg"
+    },
+    "image": "images/catalog/139f-014.jpeg",
+    "sha256": "f44bd00213c3348ae48cde2c69b5a961824f64c2e91d38f17468e07ceb26fd0f"
+  },
+  {
+    "id": "139F-015",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 5,
+      "itemNumber": 15,
+      "name": "INSULATOR 139-F",
+      "media": "word/media/image100.jpeg"
+    },
+    "image": "images/catalog/139f-015.jpeg",
+    "sha256": "115920bcd4d9230ce8e605a8d0d65a669826f985ce8616f2250256538807e33c"
+  },
+  {
+    "id": "139F-016",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 6,
+      "itemNumber": 16,
+      "name": "ACC WIRE 139-F",
+      "media": "word/media/image31.jpeg"
+    },
+    "image": "images/catalog/139f-016.jpeg",
+    "sha256": "cdbd2a827c85678a1cca3c2eca3b1e6fd4a4d16888d6c6181e703fb95aacc843"
+  },
+  {
+    "id": "139F-017",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 7,
+      "itemNumber": 17,
+      "name": "LONG ABSORBER",
+      "media": "word/media/image103.jpeg"
+    },
+    "image": "images/catalog/139f-017.jpeg",
+    "sha256": "80ddc8d77aff60bf8b666194d5d23501c4a56a148d30a4cd3c9d1b6c89cafdc7"
+  },
+  {
+    "id": "139F-019",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 8,
+      "itemNumber": 19,
+      "name": "SHORT ABSORBER",
+      "media": "word/media/image105.jpeg"
+    },
+    "image": "images/catalog/139f-019.jpeg",
+    "sha256": "45d20281a34fcf0e65766104dd5fb7c80eabe5206989477f9dbfa17acdda31ee"
+  },
+  {
+    "id": "139F-020",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 9,
+      "itemNumber": 20,
+      "name": "LONG FLAT ABSORBER",
+      "media": "word/media/image107.jpeg"
+    },
+    "image": "images/catalog/139f-020.jpeg",
+    "sha256": "5cbebd847a2ae30b1a4f375e462ae013f701700d4762e6c89cb3725e44c7363f"
+  },
+  {
+    "id": "139F-021",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 6,
+      "row": 10,
+      "itemNumber": 21,
+      "name": "PLUG CAP WITH SPRING",
+      "media": "word/media/image109.jpeg"
+    },
+    "image": "images/catalog/139f-021.jpeg",
+    "sha256": "81f1e35a642e003e0037f84a26421ebf1db9bbfc31ae72338c8b4de0240b47f0"
+  },
+  {
+    "id": "GX35-001",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 1,
+      "itemNumber": 1,
+      "name": "GX-35 STARTER NORMAL",
+      "media": "word/media/image110.jpeg"
+    },
+    "image": "images/catalog/gx35-001.jpeg",
+    "sha256": "c4f0f5246b222fa9e5208e2bfd4e31e529b1daeab614611a18e2f378cfc418d6"
+  },
+  {
+    "id": "GX35-002",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 2,
+      "itemNumber": 2,
+      "name": "GX-35 EASY STARTER",
+      "media": "word/media/image112.jpeg"
+    },
+    "image": "images/catalog/gx35-002.jpeg",
+    "sha256": "e2c3f333d0b3d0c84a15e9f129dc4daa05313c7598ba29546b377e312c676707"
+  },
+  {
+    "id": "GX35-003",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 3,
+      "itemNumber": 3,
+      "name": "GX-35 AIR FILTER",
+      "media": "word/media/image114.jpeg"
+    },
+    "image": "images/catalog/gx35-003.jpeg",
+    "sha256": "1b765bd43ad31682fa70552197d7b05afa37c02dee10affb5157039ad5278cdf"
+  },
+  {
+    "id": "GX35-004",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 4,
+      "itemNumber": 4,
+      "name": "GX-35 TAPET VALVE",
+      "media": "word/media/image116.jpeg"
+    },
+    "image": "images/catalog/gx35-004.jpeg",
+    "sha256": "7c825ada586178d6a070bad7c8805d99c273271b1754672835b26f331c0ce2bd"
+  },
+  {
+    "id": "GX35-005",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 5,
+      "itemNumber": 5,
+      "name": "GX-35 PISTON ASSY.",
+      "media": "word/media/image97.jpeg"
+    },
+    "image": "images/catalog/gx35-005.jpeg",
+    "sha256": "918b5be7ace44b318817c34012ad1807497a51e2c8a8e131e8010ad379f2cb6a"
+  },
+  {
+    "id": "GX35-006",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 6,
+      "itemNumber": 6,
+      "name": "GX-35 IGNITION COIL",
+      "media": "word/media/image99.jpeg"
+    },
+    "image": "images/catalog/gx35-006.jpeg",
+    "sha256": "da3ceaa64fcdfed4d4621a3d6e2c1633ed2c2875a3144cd32f75fa1f4484b5aa"
+  },
+  {
+    "id": "GX35-007",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 7,
+      "itemNumber": 7,
+      "name": "GX-35 CAM WHEEL",
+      "media": "word/media/image117.jpeg"
+    },
+    "image": "images/catalog/gx35-007.jpeg",
+    "sha256": "6d0afa94d2d48148d40e64c5275912855688e70d9adbc35357a8803a4cfde322"
+  },
+  {
+    "id": "GX35-008",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 8,
+      "itemNumber": 8,
+      "name": "GX-35 HONDA FILTER SMALL",
+      "media": "word/media/image118.jpeg"
+    },
+    "image": "images/catalog/gx35-008.jpeg",
+    "sha256": "0894dbd6c560fac69b48a164c9d140e86e3d4f9822b5edf1459507e4ca692cc2"
+  },
+  {
+    "id": "GX35-009",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 9,
+      "itemNumber": 9,
+      "name": "GX-35 HONDA FILTER BIG",
+      "media": "word/media/image119.jpeg"
+    },
+    "image": "images/catalog/gx35-009.jpeg",
+    "sha256": "f8126442d888a3333dedc5f36048959143bbb5700ba577f0b6673409c8701271"
+  },
+  {
+    "id": "GX35-010",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 10,
+      "itemNumber": 10,
+      "name": "GX-35 ACC WIRE",
+      "media": "word/media/image120.jpeg"
+    },
+    "image": "images/catalog/gx35-010.jpeg",
+    "sha256": "5c7cb7e2fd75708b44ded81c9a4ca7595f9260cf46cbc2be2f7eee320979cc17"
+  },
+  {
+    "id": "GX35-011",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 1,
+      "itemNumber": 11,
+      "name": "BLACK PIPE SMALL",
+      "media": "word/media/image111.jpeg"
+    },
+    "image": "images/catalog/gx35-011.jpeg",
+    "sha256": "fad9e1869d5bccca8907df3cb932272c50feab240dcf50435eded56a2ee1aed2"
+  },
+  {
+    "id": "GX35-012",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 2,
+      "itemNumber": 12,
+      "name": "BLACK PIPE BIG",
+      "media": "word/media/image113.jpeg"
+    },
+    "image": "images/catalog/gx35-012.jpeg",
+    "sha256": "841e0d925f22d07230ad67c9fcb45ae13bb89c277a65478edb85dbcd6ec5acbe"
+  },
+  {
+    "id": "GX35-013",
+    "source": {
+      "document": "POWER SPRAYER LIST (PHOTO).docx",
+      "table": 7,
+      "row": 3,
+      "itemNumber": 13,
+      "name": "GX-35 OIL SEAL",
+      "media": "word/media/image115.jpeg"
+    },
+    "image": "images/catalog/gx35-013.jpeg",
+    "sha256": "c9b6cd8c280277b1f99ebdad3919405d3d9a146708fdf4ddda63976359124c83"
+  },
+  {
+    "id": "HTP-001",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 2,
+      "itemNumber": 1,
+      "name": "FOOTVALVE FILTER REGULAR",
+      "media": "word/media/image1.jpeg"
+    },
+    "image": "images/catalog/htp-001.jpeg",
+    "sha256": "e063d7113fc7caa10191f745687d5c2a5d3eabfa1cd9200d68a207cca8b8d09d"
+  },
+  {
+    "id": "HTP-002",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 3,
+      "itemNumber": 2,
+      "name": "FOOTVALVE FILTER BIG",
+      "media": "word/media/image3.jpeg"
+    },
+    "image": "images/catalog/htp-002.jpeg",
+    "sha256": "4140a4288bcdc1ef01bbe60c4e232e96396d2578979aa2b7f6aacef968b6b614"
+  },
+  {
+    "id": "HTP-003",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 4,
+      "itemNumber": 3,
+      "name": "U TYPE FILTER 19MM",
+      "media": "word/media/image5.jpeg"
+    },
+    "image": "images/catalog/htp-003.jpeg",
+    "sha256": "c13662e1ef22b1b82147e23db4985da233b59a990fae240ed8e326fc1ac79875"
+  },
+  {
+    "id": "HTP-004",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 5,
+      "itemNumber": 4,
+      "name": "U TYPE FILTER 32MM",
+      "media": "word/media/image7.jpeg"
+    },
+    "image": "images/catalog/htp-004.jpeg",
+    "sha256": "f0d963e74392ff20ad5e3bbb7b21deee362be341f105c052ef292168602d2606"
+  },
+  {
+    "id": "HTP-005",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 6,
+      "itemNumber": 5,
+      "name": "AIR CAHMBER LONG AND REGULAR",
+      "media": "word/media/image9.jpeg"
+    },
+    "image": "images/catalog/htp-005.jpeg",
+    "sha256": "331b1c12cb0d58c2c78d078e5221586c043bb6b265a340207d8ed5f8f8d0a491"
+  },
+  {
+    "id": "HTP-006",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 7,
+      "itemNumber": 6,
+      "name": "PLUNGER FOR 30/50 AND 80 NO.",
+      "media": "word/media/image11.jpeg"
+    },
+    "image": "images/catalog/htp-006.jpeg",
+    "sha256": "61857bc5851bcd05e70a25136119be167a43f7982f39409dff1c759da6c2dc05"
+  },
+  {
+    "id": "HTP-007",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 8,
+      "itemNumber": 7,
+      "name": "MXER",
+      "media": "word/media/image13.jpeg"
+    },
+    "image": "images/catalog/htp-007.jpeg",
+    "sha256": "9ab10c42bd89b769300c2b9975f8749822e3649ea631c28a2fdafa5951a155bf"
+  },
+  {
+    "id": "HTP-008",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 9,
+      "itemNumber": 8,
+      "name": "REGULATOR ASSY. 80 NO.",
+      "media": "word/media/image15.jpeg"
+    },
+    "image": "images/catalog/htp-008.jpeg",
+    "sha256": "b28b2e8f6383c702d8135da6c6568245204fd985655a29450c0ebdf4f37710b9"
+  },
+  {
+    "id": "HTP-009",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 10,
+      "itemNumber": 9,
+      "name": "REGULATOR ASSY. 30/50 NO.",
+      "media": "word/media/image17.jpeg"
+    },
+    "image": "images/catalog/htp-009.jpeg",
+    "sha256": "04ad3de39d2646a14529b6eef34c780c657582b79d6be4c709b56a9ed4387434"
+  },
+  {
+    "id": "HTP-010",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 11,
+      "itemNumber": 10,
+      "name": "COMPLETE REGULATOR ASSY. FOR 30/50/80",
+      "media": "word/media/image19.jpeg"
+    },
+    "image": "images/catalog/htp-010.jpeg",
+    "sha256": "ebb4de6ffec5efc6bc8aced14517a7edbe19f8ae52b13cb2153b7136c00c983a"
+  },
+  {
+    "id": "HTP-012",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 2,
+      "itemNumber": 12,
+      "name": "WIRE PIPE FOR SUCTION 30/50/80",
+      "media": "word/media/image2.jpeg"
+    },
+    "image": "images/catalog/htp-012.jpeg",
+    "sha256": "33462fa0d651184115e4beb0c62899c6bf1d9686777a417073e59c1a39b04666"
+  },
+  {
+    "id": "HTP-013",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 3,
+      "itemNumber": 13,
+      "name": "DELIVERY HOSE 8.5MM",
+      "media": "word/media/image4.jpeg"
+    },
+    "image": "images/catalog/htp-013.jpeg",
+    "sha256": "6afdede319a573b5b21ef8b0bd0142ec769ec2a595450fecfff474c64ccd39ed"
+  },
+  {
+    "id": "HTP-014",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 4,
+      "itemNumber": 14,
+      "name": "DELIVERY HOSE 10MM",
+      "media": "word/media/image6.jpeg"
+    },
+    "image": "images/catalog/htp-014.jpeg",
+    "sha256": "c14f026504709218e77ac1a0e6361abdf56424eb3c8fb15929f947143ef8e845"
+  },
+  {
+    "id": "HTP-015",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 5,
+      "itemNumber": 15,
+      "name": "CONNECTING ROD 30/50/80",
+      "media": "word/media/image8.jpeg"
+    },
+    "image": "images/catalog/htp-015.jpeg",
+    "sha256": "b8875b79536ac6b2701af05b9d036d89376b25d90b4a7e411065ab13f806fd76"
+  },
+  {
+    "id": "HTP-016",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 6,
+      "itemNumber": 16,
+      "name": "CRANKSHAFT FOR 30/50/80",
+      "media": "word/media/image10.jpeg"
+    },
+    "image": "images/catalog/htp-016.jpeg",
+    "sha256": "2e71ac4e814c835758ae8ef891a08baa2b101170fa471235369fb69963bdfd3f"
+  },
+  {
+    "id": "HTP-017",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 7,
+      "itemNumber": 17,
+      "name": "ALUMUNIUM PULLY",
+      "media": "word/media/image12.jpeg"
+    },
+    "image": "images/catalog/htp-017.jpeg",
+    "sha256": "fddefa7efa57f4e861df605135f17b43970a686eddf61528236216c32df5a87a"
+  },
+  {
+    "id": "HTP-018",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 8,
+      "itemNumber": 18,
+      "name": "PRESSURE WATCH 30/50/80NO.",
+      "media": "word/media/image14.jpeg"
+    },
+    "image": "images/catalog/htp-018.jpeg",
+    "sha256": "82785acc5027a01d9eda25fea757ac0d82460fb55c8a5619ed2f9e7ee058ccba"
+  },
+  {
+    "id": "HTP-019",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 9,
+      "itemNumber": 19,
+      "name": "PRESSURE BALL SET 30/50/80 NO.",
+      "media": "word/media/image16.jpeg"
+    },
+    "image": "images/catalog/htp-019.jpeg",
+    "sha256": "6abd614549bc2435d54c1fd4938b8fef838c6090547175b16243c1e7f783c469"
+  },
+  {
+    "id": "HTP-020",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 10,
+      "itemNumber": 20,
+      "name": "GREASE RING 22/30/50/80 /120",
+      "media": "word/media/image18.jpeg"
+    },
+    "image": "images/catalog/htp-020.jpeg",
+    "sha256": "7c653f097b4f2116383ead66bae57bc0a722b959cd6da46a0d3a665791f882d1"
+  },
+  {
+    "id": "HTP-021",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 11,
+      "itemNumber": 21,
+      "name": "GRAND 22/30/50/80 /120",
+      "media": "word/media/image20.jpeg"
+    },
+    "image": "images/catalog/htp-021.jpeg",
+    "sha256": "a6b1560b5999df13af763dc5768584373e49342b0e8093be5e6a5e55c1c28107"
+  },
+  {
+    "id": "HTP-022",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 1,
+      "itemNumber": 22,
+      "name": "NUT NIPPLE OVERFLOW AND SUCTION 22/30/50/80",
+      "media": "word/media/image21.jpeg"
+    },
+    "image": "images/catalog/htp-022.jpeg",
+    "sha256": "6b45ebc843169fa52007982ec3295e29e28287180b60bdde99cf95031e9ebcd4"
+  },
+  {
+    "id": "HTP-023",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 2,
+      "itemNumber": 23,
+      "name": "OIL CAP LONG TYPE",
+      "media": "word/media/image23.jpeg"
+    },
+    "image": "images/catalog/htp-023.jpeg",
+    "sha256": "23555e23048346968ea99df442ec7143fa6285ec106d25272ff97d31c73435b3"
+  },
+  {
+    "id": "HTP-024",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 3,
+      "itemNumber": 24,
+      "name": "OIL GLASS",
+      "media": "word/media/image25.jpeg"
+    },
+    "image": "images/catalog/htp-024.jpeg",
+    "sha256": "20beb9e987d8455cfba50cd177225e4d4a27e184a89e5dbc0742e616f9fbbec9"
+  },
+  {
+    "id": "HTP-025",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 4,
+      "itemNumber": 25,
+      "name": "WASHER FOR SUCTION ALL TYPE",
+      "media": "word/media/image27.jpeg"
+    },
+    "image": "images/catalog/htp-025.jpeg",
+    "sha256": "f30fd4683554c1d9325cf8ed2ee721f023d193d87184b31adb270f84570ef305"
+  },
+  {
+    "id": "HTP-026",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 5,
+      "itemNumber": 26,
+      "name": "WASHER FOR DELIVERY ALL TYPE",
+      "media": "word/media/image29.jpeg"
+    },
+    "image": "images/catalog/htp-026.jpeg",
+    "sha256": "cb4d43b7215e00a19645e136e9eda69fc6dcb514e98fe969184deee40a8f8d91"
+  },
+  {
+    "id": "HTP-027",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 6,
+      "itemNumber": 27,
+      "name": "GREASE CUP",
+      "media": "word/media/image30.jpeg"
+    },
+    "image": "images/catalog/htp-027.jpeg",
+    "sha256": "e9d180e54ffd6f6f0f67c2bb82c2163793b96c4d8b1ffe83d25eb46425d1de1d"
+  },
+  {
+    "id": "HTP-028",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 7,
+      "itemNumber": 28,
+      "name": "BUSH ALL SIZE AVAILABLE",
+      "media": "word/media/image31.jpeg"
+    },
+    "image": "images/catalog/htp-028.jpeg",
+    "sha256": "e9d22a67039493cd5de172115fe3326f6aea23f8d2f4add5b6d915f496ac377e"
+  },
+  {
+    "id": "HTP-029",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 8,
+      "itemNumber": 29,
+      "name": "OIL CAP RED",
+      "media": "word/media/image32.jpeg"
+    },
+    "image": "images/catalog/htp-029.jpeg",
+    "sha256": "18f57aad0e1cf265b21fbe5e80a02bed70912fb2070721753cae106892b7898a"
+  },
+  {
+    "id": "HTP-030",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 9,
+      "itemNumber": 30,
+      "name": "HARD RING 22/30/50/80/120",
+      "media": "word/media/image33.jpeg"
+    },
+    "image": "images/catalog/htp-030.jpeg",
+    "sha256": "f0cf9d6ad65871c86fd1fbfcae6f90025524291e09703e924e507f38d4abfa28"
+  },
+  {
+    "id": "HTP-031",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 10,
+      "itemNumber": 31,
+      "name": "OIL SEAL",
+      "media": "word/media/image34.jpeg"
+    },
+    "image": "images/catalog/htp-031.jpeg",
+    "sha256": "2b5609cfe5d2eb78bbb54e9b674625ef7feb04f7618b48848dd782b4fe44bae7"
+  },
+  {
+    "id": "HTP-032",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 1,
+      "itemNumber": 32,
+      "name": "VALVE ASSY. BLACK 22/30/50/80 /120",
+      "media": "word/media/image22.jpeg"
+    },
+    "image": "images/catalog/htp-032.jpeg",
+    "sha256": "7f7c0ede490ebec4f2689b6b7fa4a760285e3a26741087468df542a9f9cb22e8"
+  },
+  {
+    "id": "HTP-033",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 2,
+      "itemNumber": 33,
+      "name": "VALVE ASSY.RED",
+      "media": "word/media/image24.jpeg"
+    },
+    "image": "images/catalog/htp-033.jpeg",
+    "sha256": "b50f616dce00eb77c16caf0cd4b9f032ed5e72454713b855926617608309804b"
+  },
+  {
+    "id": "HTP-034",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 3,
+      "itemNumber": 34,
+      "name": "V PACKING FOR 22/30/50/80 /120",
+      "media": "word/media/image26.jpeg"
+    },
+    "image": "images/catalog/htp-034.jpeg",
+    "sha256": "56cd153adc77462b2b2da81018298cd1bebbddec41708873b271f64fab2860c4"
+  },
+  {
+    "id": "HTP-035",
+    "source": {
+      "document": "HTP PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 4,
+      "itemNumber": 35,
+      "name": "VALVE PACKING 22/30/50/80 /120",
+      "media": "word/media/image28.jpeg"
+    },
+    "image": "images/catalog/htp-035.jpeg",
+    "sha256": "34937907bc33b9060262e9738e2a77e4f256358a969f0c1c242bf8b084bc521f"
+  },
+  {
+    "id": "BATTERY-001",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 2,
+      "itemNumber": 1,
+      "name": "DOUBLE MOTOR HEAVY",
+      "media": "word/media/image1.jpeg"
+    },
+    "image": "images/catalog/battery-001.jpeg",
+    "sha256": "c8cd301fdec459a80a152a3a4ee73dc5adcbd9043c82e01d5f16bcef2d02b967"
+  },
+  {
+    "id": "BATTERY-002",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 3,
+      "itemNumber": 2,
+      "name": "SINGLE MOTOR HEAVY",
+      "media": "word/media/image3.jpeg"
+    },
+    "image": "images/catalog/battery-002.jpeg",
+    "sha256": "3ec58776b4c5d761274a840f72591c13f7fa3e976ea432d6a7a4a6f0478e5298"
+  },
+  {
+    "id": "BATTERY-003",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 4,
+      "itemNumber": 3,
+      "name": "DIGITAL CHARGER EXTRA HEAVY",
+      "media": "word/media/image5.jpeg"
+    },
+    "image": "images/catalog/battery-003.jpeg",
+    "sha256": "6cbffcfc721f1b37aa1f17c4fe2988c54f6dc0ac6bd6481b9dc54c471dbdf7fc"
+  },
+  {
+    "id": "BATTERY-004",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 5,
+      "itemNumber": 4,
+      "name": "HEAVY CHARGER 2 MTR WIRE",
+      "media": "word/media/image7.jpeg"
+    },
+    "image": "images/catalog/battery-004.jpeg",
+    "sha256": "b40bdf2f26bbb2237aa5bf0d51712e49b5e542bbc78a679418f2d41638ea282a"
+  },
+  {
+    "id": "BATTERY-005",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 6,
+      "itemNumber": 5,
+      "name": "MEDIUM CHARGER {ORANGE COLOUR}",
+      "media": "word/media/image9.jpeg"
+    },
+    "image": "images/catalog/battery-005.jpeg",
+    "sha256": "6a972eecc042b2c251d9d74d3587aa8ba2e287159b3e33f2dc11ba7f898bcbfb"
+  },
+  {
+    "id": "BATTERY-006",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 7,
+      "itemNumber": 6,
+      "name": "REGULATOR HEAVY BLUE {AK}",
+      "media": "word/media/image11.jpeg"
+    },
+    "image": "images/catalog/battery-006.jpeg",
+    "sha256": "9bcf7cee06a1fa42f91c16fe9d92a4c1bd28e1f377ab19847027ebeb50061157"
+  },
+  {
+    "id": "BATTERY-007",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 8,
+      "itemNumber": 7,
+      "name": "REGULATOR MEDIUM BLUE {AK}",
+      "media": "word/media/image13.jpeg"
+    },
+    "image": "images/catalog/battery-007.jpeg",
+    "sha256": "4f28bb0ca13e8db2b8d8aee8814e77bdf8501474bb8c10621a34323e3425746e"
+  },
+  {
+    "id": "BATTERY-008",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 9,
+      "itemNumber": 8,
+      "name": "RREGULATOR SMALL & MEDIUM BLACK",
+      "media": "word/media/image15.jpeg"
+    },
+    "image": "images/catalog/battery-008.jpeg",
+    "sha256": "2126275e729e295b6a03fe20751549daa7445ec0100996229a37ca8fcb9e1564"
+  },
+  {
+    "id": "BATTERY-009",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 10,
+      "itemNumber": 9,
+      "name": "DELIVERY PIPE",
+      "media": "word/media/image17.jpeg"
+    },
+    "image": "images/catalog/battery-009.jpeg",
+    "sha256": "bdc9d0902f9de3a99d4027a5efe94237b8604eff8a692b31f3c59a2a0d7e55e7"
+  },
+  {
+    "id": "BATTERY-010",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 11,
+      "itemNumber": 10,
+      "name": "DELIVERY PIPE EXTRA HEAVY",
+      "media": "word/media/image18.jpeg"
+    },
+    "image": "images/catalog/battery-010.jpeg",
+    "sha256": "a818a32d6d8bb4b92e9a6b3db280aebc5f3f325d0f76177e59c9d045adb72c57"
+  },
+  {
+    "id": "BATTERY-011",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 12,
+      "itemNumber": 11,
+      "name": "ITALIAN GUN",
+      "media": "word/media/image20.jpeg"
+    },
+    "image": "images/catalog/battery-011.jpeg",
+    "sha256": "03de7515b095e12d00bc15a776636420c84c25d4f8f89d4e8b1ec8d56d4654d5"
+  },
+  {
+    "id": "BATTERY-012",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 2,
+      "itemNumber": 12,
+      "name": "60CM BAND BRASS GUN",
+      "media": "word/media/image2.jpeg"
+    },
+    "image": "images/catalog/battery-012.jpeg",
+    "sha256": "49a517a80ca5bb34f0b7a49d5406b6f618ec7796df5f69570efd0abf3c8efd09"
+  },
+  {
+    "id": "BATTERY-013",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 3,
+      "itemNumber": 13,
+      "name": "60CM BRASS GUN",
+      "media": "word/media/image4.jpeg"
+    },
+    "image": "images/catalog/battery-013.jpeg",
+    "sha256": "d48bde752dd0fe018333a73821395348a2e03e2fee736c28d065d8cc4cfe5de7"
+  },
+  {
+    "id": "BATTERY-014",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 4,
+      "itemNumber": 14,
+      "name": "90CM BRASS GUN",
+      "media": "word/media/image6.jpeg"
+    },
+    "image": "images/catalog/battery-014.jpeg",
+    "sha256": "03b2db080dc536ce12b00b79ea32442602e0512a382aaf8b06ee6d06bffac29d"
+  },
+  {
+    "id": "BATTERY-015",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 5,
+      "itemNumber": 15,
+      "name": "90CM BAND BRASS GUN",
+      "media": "word/media/image8.jpeg"
+    },
+    "image": "images/catalog/battery-015.jpeg",
+    "sha256": "1c19ab0489e14cf1c223443fc6a956fa153134cebee90377525a7f8939c4a841"
+  },
+  {
+    "id": "BATTERY-016",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 6,
+      "itemNumber": 16,
+      "name": "5 HOLE NOZZLE WITH SS PLATE",
+      "media": "word/media/image10.jpeg"
+    },
+    "image": "images/catalog/battery-016.jpeg",
+    "sha256": "75c36489826fbcf49e0b08828830c19ef9c793e6d0e7ee565841cc4ddde505dd"
+  },
+  {
+    "id": "BATTERY-017",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 7,
+      "itemNumber": 17,
+      "name": "5 HOLE NOZZLE",
+      "media": "word/media/image12.jpeg"
+    },
+    "image": "images/catalog/battery-017.jpeg",
+    "sha256": "0e711e5d5a7b9d74ee466d4602fc468a56735526d0982f91ab3516d733160a32"
+  },
+  {
+    "id": "BATTERY-018",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 8,
+      "itemNumber": 18,
+      "name": "8 HOLE NOZZLE EXTRA HEAVY",
+      "media": "word/media/image14.jpeg"
+    },
+    "image": "images/catalog/battery-018.jpeg",
+    "sha256": "cc78cad4dfe72d3604200e0b7d624817ec9d01ab784d871f45f6f7abf35db5bd"
+  },
+  {
+    "id": "BATTERY-019",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 9,
+      "itemNumber": 19,
+      "name": "BIG HOOD NOZZLE",
+      "media": "word/media/image16.jpeg"
+    },
+    "image": "images/catalog/battery-019.jpeg",
+    "sha256": "89d3f4537e0e06dd4d1734059803be076cb13a32e650d0b0e05630f5a0c548fa"
+  },
+  {
+    "id": "BATTERY-020",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 10,
+      "itemNumber": 20,
+      "name": "MEDIUM HOOD NOZZLE",
+      "media": "word/media/image16.jpeg"
+    },
+    "image": "images/catalog/battery-020.jpeg",
+    "sha256": "89d3f4537e0e06dd4d1734059803be076cb13a32e650d0b0e05630f5a0c548fa"
+  },
+  {
+    "id": "BATTERY-021",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 11,
+      "itemNumber": 21,
+      "name": "ADJUSTABLE BAN NOZZLE",
+      "media": "word/media/image19.jpeg"
+    },
+    "image": "images/catalog/battery-021.jpeg",
+    "sha256": "95170a5b55768bb83768908209893fe605cfc07298079c27a5b5de871c9b4376"
+  },
+  {
+    "id": "BATTERY-022",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 1,
+      "row": 12,
+      "itemNumber": 22,
+      "name": "SINGLE HOLE BAND NOZZLE",
+      "media": "word/media/image21.jpeg"
+    },
+    "image": "images/catalog/battery-022.jpeg",
+    "sha256": "11e6863970bf376fe41584e77946726e03668a6903db300061faac06aec8872f"
+  },
+  {
+    "id": "BATTERY-023",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 1,
+      "itemNumber": 23,
+      "name": "2 HOLE F NOZZLE",
+      "media": "word/media/image22.jpeg"
+    },
+    "image": "images/catalog/battery-023.jpeg",
+    "sha256": "78d2d57fa10a04e4170c7346aa027b921859d286c4e29e7eb674caa682f4ecb9"
+  },
+  {
+    "id": "BATTERY-024",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 2,
+      "itemNumber": 24,
+      "name": "3 HOLE F NOZZLE",
+      "media": "word/media/image24.jpeg"
+    },
+    "image": "images/catalog/battery-024.jpeg",
+    "sha256": "10bcaa3a211a3b5686bbf6b0167e90c6e3d4ad094f10f924b31d4a728379ebed"
+  },
+  {
+    "id": "BATTERY-025",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 3,
+      "itemNumber": 25,
+      "name": "SS LANCE",
+      "media": "word/media/image26.jpeg"
+    },
+    "image": "images/catalog/battery-025.jpeg",
+    "sha256": "1fadc5399d6d6ee6042351f036d870382531af76ca85fca95298ac7dd0886ff0"
+  },
+  {
+    "id": "BATTERY-026",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 4,
+      "itemNumber": 26,
+      "name": "TRIGGER HEAVY",
+      "media": "word/media/image28.jpeg"
+    },
+    "image": "images/catalog/battery-026.jpeg",
+    "sha256": "24fe521c22c047ea56d453a7c45e3f42f7b6d22a405d676ba5b021c0c1839836"
+  },
+  {
+    "id": "BATTERY-027",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 5,
+      "itemNumber": 27,
+      "name": "GUN HANDLE PLASTIC THREAD NEW",
+      "media": "word/media/image30.jpeg"
+    },
+    "image": "images/catalog/battery-027.jpeg",
+    "sha256": "96674e0c6b654f8b82830d84d30bda1942a12ca8bede873d356240ac2d65f518"
+  },
+  {
+    "id": "BATTERY-028",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 6,
+      "itemNumber": 28,
+      "name": "BOTH SIDE THREAD HANDLE",
+      "media": "word/media/image32.jpeg"
+    },
+    "image": "images/catalog/battery-028.jpeg",
+    "sha256": "9d81c0e5963a820f0181bec77ebf4b453f68f523a2d1f13a26bf6658c5ee7d64"
+  },
+  {
+    "id": "BATTERY-029",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 7,
+      "itemNumber": 29,
+      "name": "GUN HANDLE WITH BRASS NUT",
+      "media": "word/media/image34.jpeg"
+    },
+    "image": "images/catalog/battery-029.jpeg",
+    "sha256": "9960301a6fcc495dfad7ae80a261e2652f5ff6895d2b4668a715f237ad7274fb"
+  },
+  {
+    "id": "BATTERY-030",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 8,
+      "itemNumber": 30,
+      "name": "BUCKLE SET 2 INCHES",
+      "media": "word/media/image36.jpeg"
+    },
+    "image": "images/catalog/battery-030.jpeg",
+    "sha256": "1546d8c0052c633af4cc46331a6ceae439732fa6d5a25e81001ea92e4731cfad"
+  },
+  {
+    "id": "BATTERY-031",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 9,
+      "itemNumber": 31,
+      "name": "BUCKLE SET 1.5 INCHES",
+      "media": "word/media/image38.jpeg"
+    },
+    "image": "images/catalog/battery-031.jpeg",
+    "sha256": "1066fecf994e8f90ffc97c7dd1c2f92ed2172b71fd42b3b043299fba5f5f83f3"
+  },
+  {
+    "id": "BATTERY-032",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 10,
+      "itemNumber": 32,
+      "name": "2 AND 1.5 WATERPROOF BELT SET METAL BUCKLE",
+      "media": "word/media/image40.jpeg"
+    },
+    "image": "images/catalog/battery-032.jpeg",
+    "sha256": "4dc9b8756b1eb46c2c962d5dfe5ebfed0586403c1145e808cc670e28594a2b75"
+  },
+  {
+    "id": "BATTERY-033",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 1,
+      "itemNumber": 33,
+      "name": "2 INCHES BELT SET LEATHER CUSHION SPECIAL",
+      "media": "word/media/image23.jpeg"
+    },
+    "image": "images/catalog/battery-033.jpeg",
+    "sha256": "09e30d076767e532d35bd1b6e6cbc4465b962d33cb00859baa92c126198ecafc"
+  },
+  {
+    "id": "BATTERY-034",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 2,
+      "itemNumber": 34,
+      "name": "TANK CAP BIG",
+      "media": "word/media/image25.jpeg"
+    },
+    "image": "images/catalog/battery-034.jpeg",
+    "sha256": "72744d81ea26df5de6c584a525706a135e5ca623a87b4ace41fcf2083452d1b6"
+  },
+  {
+    "id": "BATTERY-035",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 3,
+      "itemNumber": 35,
+      "name": "TANK CAP SMALL",
+      "media": "word/media/image27.jpeg"
+    },
+    "image": "images/catalog/battery-035.jpeg",
+    "sha256": "f619b26158614af611fec48f9cd4f146a225ecdb5cd9df0677691acd66978170"
+  },
+  {
+    "id": "BATTERY-036",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 4,
+      "itemNumber": 36,
+      "name": "TANK STAINER",
+      "media": "word/media/image29.jpeg"
+    },
+    "image": "images/catalog/battery-036.jpeg",
+    "sha256": "66e894d8ae5c484628bb85dd493f4413283dfae5401d95f407062f07c76260b3"
+  },
+  {
+    "id": "BATTERY-037",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 5,
+      "itemNumber": 37,
+      "name": "TRANSPARENT ADJ. NOZZLE",
+      "media": "word/media/image31.jpeg"
+    },
+    "image": "images/catalog/battery-037.jpeg",
+    "sha256": "d53e4a925912a759e15aa5c1ee4a5c6a4d97f38f02b17740fc39a04d85ef3e40"
+  },
+  {
+    "id": "BATTERY-038",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 6,
+      "itemNumber": 38,
+      "name": "DOUBLE SWITCH WITH WIRE",
+      "media": "word/media/image33.jpeg"
+    },
+    "image": "images/catalog/battery-038.jpeg",
+    "sha256": "fe0ef27e90fff93a7ca45722e56e82092903ab0063a98a58f23cdff3c6fb8038"
+  },
+  {
+    "id": "BATTERY-039",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 7,
+      "itemNumber": 39,
+      "name": "SINGLE SWITCH WITH WIRE",
+      "media": "word/media/image35.jpeg"
+    },
+    "image": "images/catalog/battery-039.jpeg",
+    "sha256": "bc7474063aed41d10be142fb3e70c1a04fa4126b62eb0273d955bffd2b90cdf1"
+  },
+  {
+    "id": "BATTERY-040",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 8,
+      "itemNumber": 40,
+      "name": "CAHRGING SOCKET WITH WIRE",
+      "media": "word/media/image37.jpeg"
+    },
+    "image": "images/catalog/battery-040.jpeg",
+    "sha256": "db9b07afa6ce97b0b2e16631ad8d6ba45d2802809cc2ce6869a2fa0303ed5368"
+  },
+  {
+    "id": "BATTERY-041",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 9,
+      "itemNumber": 41,
+      "name": "2 WAY CONNECTION",
+      "media": "word/media/image39.jpeg"
+    },
+    "image": "images/catalog/battery-041.jpeg",
+    "sha256": "137d200614947336e92c1d7f7132adb8a8a9aaf0e64b7f9c5491fd8464da5f81"
+  },
+  {
+    "id": "BATTERY-042",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 2,
+      "row": 10,
+      "itemNumber": 42,
+      "name": "MOTOR HEAD KIT",
+      "media": "word/media/image41.jpeg"
+    },
+    "image": "images/catalog/battery-042.jpeg",
+    "sha256": "6c7267161b36972453f2a209982963a22c1134f9ab5296e3b38936fcc324c45b"
+  },
+  {
+    "id": "BATTERY-043",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 1,
+      "itemNumber": 43,
+      "name": "PRESSURE WASHER WITH DOUBLE TAPER",
+      "media": "word/media/image42.jpeg"
+    },
+    "image": "images/catalog/battery-043.jpeg",
+    "sha256": "863d9d2358f602032bfcb02d4d7417ee3e0f9e4c607a48c53258eec333f9243b"
+  },
+  {
+    "id": "BATTERY-044",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 2,
+      "itemNumber": 44,
+      "name": "ORESSURE WASHER WITH SINGLE TAPER",
+      "media": "word/media/image44.jpeg"
+    },
+    "image": "images/catalog/battery-044.jpeg",
+    "sha256": "f349f59154bb2a9931742a56d91ba10d4c2062f6eb5a23e9cf27ce870a1022d6"
+  },
+  {
+    "id": "BATTERY-045",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 3,
+      "itemNumber": 45,
+      "name": "SMALL ELBOW WITH CLIP",
+      "media": "word/media/image46.jpeg"
+    },
+    "image": "images/catalog/battery-045.jpeg",
+    "sha256": "00a6e05db190f2b77f7c040d3221e66e4508094b0bf809114ccd9f8b5f3946d9"
+  },
+  {
+    "id": "BATTERY-046",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 4,
+      "itemNumber": 46,
+      "name": "BIG ELBOW WITH CLIP",
+      "media": "word/media/image48.jpeg"
+    },
+    "image": "images/catalog/battery-046.jpeg",
+    "sha256": "42e0bead344f357c8c77a1942fd9d244e05353426896218afa0e3aeb5dff442b"
+  },
+  {
+    "id": "BATTERY-047",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 5,
+      "itemNumber": 47,
+      "name": "GUN CAP SET",
+      "media": "word/media/image50.jpeg"
+    },
+    "image": "images/catalog/battery-047.jpeg",
+    "sha256": "181651ad12d094551c78533ca19210f716ce5a3fcf87705864d49e784b7f9ad9"
+  },
+  {
+    "id": "BATTERY-048",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 6,
+      "itemNumber": 48,
+      "name": "GUN HANDLE",
+      "media": "word/media/image52.jpeg"
+    },
+    "image": "images/catalog/battery-048.jpeg",
+    "sha256": "b5904ed0f5d7dc7d9848d64ea7c971ab8b84006b507c8daa671649af66f00598"
+  },
+  {
+    "id": "BATTERY-049",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 7,
+      "itemNumber": 49,
+      "name": "SMALL SWITCH",
+      "media": "word/media/image54.jpeg"
+    },
+    "image": "images/catalog/battery-049.jpeg",
+    "sha256": "52405056a21877a721646a4ffa1c3f49d7cc7c3fb232236c5ec12643cf66f491"
+  },
+  {
+    "id": "BATTERY-050",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 8,
+      "itemNumber": 50,
+      "name": "BLACK SWITCH FOR LED",
+      "media": "word/media/image56.jpeg"
+    },
+    "image": "images/catalog/battery-050.jpeg",
+    "sha256": "67f5f6c52cbf50f775113fb201ff393f0920171eb78fd08cdcaa2edd4dc3ddb2"
+  },
+  {
+    "id": "BATTERY-051",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 9,
+      "itemNumber": 51,
+      "name": "TANK FILTER",
+      "media": "word/media/image58.jpeg"
+    },
+    "image": "images/catalog/battery-051.jpeg",
+    "sha256": "164ae464cb6ea406a8dc9c2771e7c980234d96a2f5044113f03656db92134263"
+  },
+  {
+    "id": "BATTERY-052",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 10,
+      "itemNumber": 52,
+      "name": "OPERATING HANDLE SET SMALL AND BIG",
+      "media": "word/media/image60.jpeg"
+    },
+    "image": "images/catalog/battery-052.jpeg",
+    "sha256": "8d4f5a8d732929c93c3a2b531d63b381a86704eb0aa2660c989775f7f894f0b0"
+  },
+  {
+    "id": "BATTERY-053",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 1,
+      "itemNumber": 53,
+      "name": "VOLT METER",
+      "media": "word/media/image43.jpeg"
+    },
+    "image": "images/catalog/battery-053.jpeg",
+    "sha256": "80d6a3eb65d08288f7e54a318ae6fb1d2f1fd9eb02a191fb4888cd69143b4606"
+  },
+  {
+    "id": "BATTERY-054",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 2,
+      "itemNumber": 54,
+      "name": "HYLOZEN",
+      "media": "word/media/image45.jpeg"
+    },
+    "image": "images/catalog/battery-054.jpeg",
+    "sha256": "237c86470342233264ae3582e928acc6d2a14db9c435d1c2515e021d6f6fc5cd"
+  },
+  {
+    "id": "BATTERY-055",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 3,
+      "itemNumber": 55,
+      "name": "HYLOZEN SQUARE",
+      "media": "word/media/image47.jpeg"
+    },
+    "image": "images/catalog/battery-055.jpeg",
+    "sha256": "0081f402a7c953c598b4ccb706850e0668b8c53e84b795ae0ff3c4e2b3320574"
+  },
+  {
+    "id": "BATTERY-056",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 4,
+      "itemNumber": 56,
+      "name": "LED 5W/7W/9W",
+      "media": "word/media/image49.jpeg"
+    },
+    "image": "images/catalog/battery-056.jpeg",
+    "sha256": "26c09ed52c4a55327692fa9c4491aed3311190f5446d558fcc54c68aa839218a"
+  },
+  {
+    "id": "BATTERY-057",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 5,
+      "itemNumber": 57,
+      "name": "BATTERY CLIP 12/12",
+      "media": "word/media/image51.jpeg"
+    },
+    "image": "images/catalog/battery-057.jpeg",
+    "sha256": "715391a71a91fb3f738b396d16e0c389a360f03838aef5e6eaa069c4588196d9"
+  },
+  {
+    "id": "BATTERY-058",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 6,
+      "itemNumber": 58,
+      "name": "BATTERY CLIP 8/12",
+      "media": "word/media/image53.jpeg"
+    },
+    "image": "images/catalog/battery-058.jpeg",
+    "sha256": "4e14679638e5a4dcad5dd7497d0b2f6ad484c14e4db872cf67cdd5a7b6144267"
+  },
+  {
+    "id": "BATTERY-059",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 7,
+      "itemNumber": 59,
+      "name": "12MM CLIP",
+      "media": "word/media/image55.jpeg"
+    },
+    "image": "images/catalog/battery-059.jpeg",
+    "sha256": "9ed8796c499425b1e51cc3572d96c7e39458fe0c5f672bd8a158775ac927d9b8"
+  },
+  {
+    "id": "BATTERY-060",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 8,
+      "itemNumber": 60,
+      "name": "18MM CLIP",
+      "media": "word/media/image57.jpeg"
+    },
+    "image": "images/catalog/battery-060.jpeg",
+    "sha256": "ade993c8206d4508c11c64f2d910683479d7017d18c4bbb7040ed2b435840c72"
+  },
+  {
+    "id": "BATTERY-061",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 9,
+      "itemNumber": 61,
+      "name": "WIRE CLIP",
+      "media": "word/media/image59.jpeg"
+    },
+    "image": "images/catalog/battery-061.jpeg",
+    "sha256": "f31a58cd9a156524b3082962808fd5226d760a8cf86900035e7cb37acf39c2f8"
+  },
+  {
+    "id": "BATTERY-062",
+    "source": {
+      "document": "BATTERY PUMP LIST (PHOTO).docx",
+      "table": 3,
+      "row": 10,
+      "itemNumber": 62,
+      "name": "HANDLE LOCK",
+      "media": "word/media/image61.jpeg"
+    },
+    "image": "images/catalog/battery-062.jpeg",
+    "sha256": "3e08617a41dfef52d54e742c9bae53d415131d1c446d4cebfe3ebfc4e3297534"
+  }
+]

@@ -1,0 +1,16 @@
+<main id="main-content" class="page-content active" tabindex="-1">
+    <div class="category-header"><span class="tag">YOUR ENQUIRY</span><h1>Request a quote</h1><p>Choose quantities and tell us your pump model. Pricing, availability and order confirmation are handled by our team.</p></div>
+    <noscript><p>Enable JavaScript to prepare a list, or <a href="tel:+919266769669">call +91 9266769669</a> to enquire.</p></noscript>
+    <div id="enquiry-empty"><h2>Your enquiry list is empty</h2><p>Add parts from a catalogue to request a quote.</p><a class="btn-yellow" href="index.html">Browse parts</a></div>
+    <div id="enquiry-content" hidden>
+        <div id="enquiry-items"></div>
+        <label for="enquiry-notes">Pump model or other requirements (optional)</label>
+        <textarea id="enquiry-notes" maxlength="1000" rows="4" placeholder="For example: my pump model, delivery location, or questions about fitment"></textarea>
+        <p class="detail-note">Your list is saved in this browser when storage is available. Opening WhatsApp prepares a message; you still need to send it. This does not place or confirm an order.</p>
+        <details><summary>Preview enquiry message</summary><pre id="enquiry-preview"></pre></details>
+        <div class="enquiry-actions"><a id="send-enquiry" class="btn-green" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a><button id="copy-enquiry" class="btn-yellow" type="button">Copy message</button></div>
+        <p id="enquiry-long" hidden>This list is too long for a reliable WhatsApp link. Copy the message and paste it into your chat.</p>
+        <div id="copy-enquiry-fallback" hidden><label for="enquiry-copy-text">Select and copy your message</label><textarea id="enquiry-copy-text" rows="8" readonly></textarea></div>
+        <p id="enquiry-copy-status" role="status"></p>
+    </div>
+</main>
