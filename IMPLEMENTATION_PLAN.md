@@ -247,7 +247,9 @@ Then check `categories/power-sprayer.html?group=GX-35&q=starter` (two results).
 
 ### Brand logo update — 2026-09-08
 
-- Added the supplied Bentex Agro Industries logo as a local asset at
-  `images/site/bentex-agro-logo.jpeg`.
-- Replaced the text-only header and footer brand marks on all 228 generated pages.
-- Added responsive logo sizing for desktop and mobile layouts.
+- Added the supplied circular Bentex Agro mark as a cleaned transparent local asset at
+  `images/site/bentex-agro-mark.png`.
+- Restored the readable `BENTEX / AGRO INDUSTRIES` wordmark beside the icon on all
+  228 generated pages.
+- Added responsive logo sizing for desktop and mobile layouts and removed the old
+  checkerboard/full-card logo asset.
