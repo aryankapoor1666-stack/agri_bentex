@@ -540,7 +540,8 @@ nav { gap: 4px; }
 .btn { min-width: 175px; padding: 15px 24px; font-size: 12px; }
 .hero-trust { display: flex; justify-content: center; gap: 26px; margin-top: 30px; color: #d4dacd; font-size: 9px; letter-spacing: 1.5px; font-weight: 800; }
 .hero-trust span { padding: 8px 12px; border-radius: 999px; background: rgba(255,255,255,.055); border: 1px solid rgba(255,255,255,.11); backdrop-filter: blur(12px); }
-.hero-scroll { position: absolute; bottom: 25px; left: 50%; transform: translateX(-50%); font-size: 9px; letter-spacing: 2px; color: #d8ddd3; z-index: 2; }
+.hero-scroll { position: absolute; bottom: 25px; left: 50%; transform: translateX(-50%); display: inline-block; padding: 8px 12px; font-size: 9px; letter-spacing: 2px; color: #d8ddd3; z-index: 2; cursor: pointer; }
+.hero-scroll:hover, .hero-scroll:focus-visible { color: var(--gold-light); }
 .hero-scroll span { display: block; text-align: center; font-size: 18px; animation: scrollBounce 1.6s infinite; }
 @keyframes scrollBounce { 50% { transform: translateY(7px); } }
 .section { max-width: 1380px; margin: auto; padding: 110px 42px; }
@@ -696,6 +697,8 @@ nav { gap: 4px; }
 .part-card:hover .part-img-wrapper img { transform: scale(1.07); }
 .part-info { padding: 14px 14px 10px; }
 .part-card h4, .part-card h3 { font: 800 18px/1.05 "Barlow Condensed", sans-serif; text-transform: uppercase; color: var(--ink); }
+.part-title-link { color: inherit; display: inline; }
+.part-title-link:hover, .part-title-link:focus-visible { color: #9a7b15; }
 .item-num { color: #9a7b15; }
 .product-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
 .product-badges span { display: inline-flex; align-items: center; min-height: 22px; padding: 3px 8px; background: #eef3e8; color: #526348; border: 1px solid rgba(27,40,28,.08); border-radius: 999px; font-size: 10px; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; }
@@ -782,20 +785,30 @@ body.dialog-open { overflow: hidden; }
 }
 
 /* Phase 4: compact browsing controls and permanent product pages */
-.category-header { padding: 12px 0 20px; text-align: left; }
+.category-header { display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, 0.68fr); gap: 44px; align-items: center; padding: 12px 0 20px; text-align: left; }
+.category-copy { min-width: 0; }
 .category-header .tag { margin-bottom: 10px; }
-.category-header p { margin: 12px 0 18px; }
+.category-header p { margin: 12px 0 18px; color: #64755f; }
 .category-header .hero-buttons { justify-content: flex-start; }
+.category-visual { position: relative; min-height: 300px; background: #fff; border: 1px solid rgba(27,40,28,.10); overflow: hidden; }
+.category-visual img { width: 100%; height: 100%; min-height: 300px; object-fit: contain; padding: 28px; background: linear-gradient(135deg, #fff 0%, #f3f5ef 100%); }
+.category-visual-copy { position: absolute; left: 18px; right: 18px; bottom: 18px; padding: 16px 18px; background: rgba(18,32,22,.92); color: #fff; backdrop-filter: blur(14px); }
+.category-visual-copy span { display: block; color: var(--gold-light); font-size: 0.72rem; font-weight: 900; letter-spacing: 1.4px; text-transform: uppercase; }
+.category-visual-copy strong { display: block; margin-top: 4px; font: 900 1.45rem/1 "Barlow Condensed", sans-serif; text-transform: uppercase; }
+.category-visual-copy p { margin: 8px 0 0; color: #dce3d8; font-size: 0.86rem; }
+.page-content:has(.parts-catalog) .back-btn, .product-page .back-btn { color: #64755f; }
+.page-content:has(.parts-catalog) .back-btn:hover, .product-page .back-btn:hover { color: #9a7b15; }
 .catalogue-tools { max-width: none; display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin: 12px 0 28px; }
 .catalogue-tools > div:first-child { flex: 1 1 300px; }
+.catalogue-tools label, .search-box label { color: #64755f; font-weight: 600; }
 .catalogue-tools select { min-height: 50px; padding: 12px; background: var(--bg-card); color: var(--text-white); border: 1px solid var(--border-color); border-radius: 6px; font: inherit; width: 100%; }
 .catalogue-tools .btn-details { margin: 0; min-height: 50px; padding: 8px; }
 .catalogue-nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 20px; justify-content: flex-start; }
 .catalogue-pill { display: inline-flex; align-items: center; gap: 9px; min-height: 42px; padding: 9px 14px; background: #fff; border: 1px solid rgba(27,40,28,.12); color: var(--ink); font-weight: 800; font-size: 0.85rem; }
-.catalogue-pill span { display: inline-grid; place-items: center; min-width: 26px; height: 26px; padding: 0 7px; background: #f1f3ec; color: #6d775f; border-radius: 999px; font-size: 0.75rem; }
+.catalogue-pill span { display: none; }
 .catalogue-pill.active { border-color: rgba(220,169,0,.65); box-shadow: inset 0 -3px 0 var(--accent-yellow); }
 .catalogue-pill:hover { border-color: var(--accent-yellow); }
-.search-status { flex-basis: 100%; color: var(--text-muted); }
+.search-status { flex-basis: 100%; color: #64755f; font-weight: 600; }
 .empty-state { text-align: center; border: 1px solid var(--border-color); border-radius: 12px; padding: 40px 24px; }
 .empty-state p { margin-top: 12px; color: var(--text-muted); }
 .part-card h3 { font-size: 1rem; font-weight: 800; line-height: 1.15; margin-bottom: 6px; }
@@ -823,11 +836,16 @@ a.btn-details { display: inline-flex; align-items: center; }
 .related-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 #copy-status { overflow-wrap: anywhere; max-width: 100%; color: var(--text-muted); }
 #copy-status input { width: 100%; padding: 12px; font: inherit; }
+@media (max-width: 900px) {
+    .category-header { grid-template-columns: 1fr; gap: 22px; }
+}
 @media (max-width: 600px) {
     .page-content:has(.parts-catalog) { width: auto; padding-inline: 16px; }
     .part-img-wrapper { aspect-ratio: 4 / 3; height: auto; padding: 0; }
     .card-actions { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-    .category-header { padding: 8px 0 16px; }
+    .category-header { grid-template-columns: 1fr; gap: 18px; padding: 8px 0 16px; }
+    .category-visual { min-height: 220px; }
+    .category-visual img { min-height: 220px; padding: 18px; }
     .category-header .hero-buttons a { padding: 12px 14px; font-size: 0.75rem; }
     .catalogue-tools { gap: 12px; }
     .catalogue-tools > div { width: 100%; }
@@ -849,24 +867,68 @@ a.btn-details { display: inline-flex; align-items: center; }
 [data-enquiry-count] { margin-left: 8px; padding: 2px 7px; border-radius: 12px; background: var(--accent-yellow); color: #07150b; }
 .enquiry-notice:empty { display: none; }
 .enquiry-notice { position: fixed; bottom: 16px; left: 16px; right: 16px; max-width: 700px; margin: auto; padding: 12px 16px; border: 1px solid var(--accent-yellow); background: var(--bg-card); color: var(--text-white); border-radius: 8px; z-index: 1002; pointer-events: none; }
-.enquiry-row { display: grid; grid-template-columns: 100px minmax(0,1fr) 120px auto; gap: 20px; align-items: center; padding: 20px; margin-bottom: 16px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 10px; }
-.enquiry-row img { object-fit: contain; background: white; border-radius: 6px; }
-.enquiry-row a { font-weight: 700; }
-.enquiry-row .item-num { margin-top: 8px; }
-.enquiry-row input, #enquiry-notes, #enquiry-copy-text { width: 100%; padding: 12px; font: inherit; color: var(--text-white); background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 6px; }
-.enquiry-row input { margin-top: 6px; }
-.enquiry-row input[aria-invalid] { border-color: #ff9c8c; }
-#enquiry-notes { display: block; margin: 10px 0; resize: vertical; }
-.enquiry-actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0; }
-#enquiry-preview { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; padding: 16px; }
-#enquiry-empty { padding: 32px 0; }
-#enquiry-empty p { margin: 16px 0 24px; }
-summary { cursor: pointer; padding: 12px 0; }
+.enquiry-page { max-width: 1320px; }
+.enquiry-hero { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 44px; align-items: end; margin: 34px 0 30px; }
+.enquiry-hero h1 { font: 900 clamp(2.4rem, 5vw, 4rem)/.9 "Barlow Condensed", sans-serif; text-transform: uppercase; margin: 14px 0 16px; }
+.enquiry-hero p { max-width: 640px; color: #64755f; font-size: 1.05rem; }
+.quote-help-panel, .enquiry-main-panel, .enquiry-summary-panel, .enquiry-empty-card, .enquiry-notes-card, .enquiry-preview-card { background: #fff; border: 1px solid rgba(27,40,28,.10); }
+.quote-help-panel { padding: 22px; border-left: 4px solid var(--accent-yellow); }
+.quote-help-panel span, .enquiry-panel-head span, .enquiry-summary-panel > span, .enquiry-empty-card > span { display: block; color: #9a7b15; font-size: 0.72rem; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; }
+.quote-help-panel ol { margin: 12px 0 0; padding-left: 20px; color: #64755f; }
+.quote-help-panel li + li { margin-top: 8px; }
+.enquiry-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 24px; align-items: start; margin-bottom: 70px; }
+.enquiry-main-panel { padding: 22px; }
+.enquiry-panel-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+.enquiry-panel-head h2, .enquiry-summary-panel h2, .enquiry-empty-card h2 { font: 900 1.8rem/1 "Barlow Condensed", sans-serif; text-transform: uppercase; margin-top: 6px; }
+.enquiry-panel-head a { color: #9a7b15; font-weight: 800; }
+.enquiry-row { display: grid; grid-template-columns: 120px minmax(0,1fr) 170px auto; gap: 18px; align-items: center; padding: 16px; margin-bottom: 12px; background: #f8f7f1; border: 1px solid rgba(27,40,28,.08); border-radius: 8px; color: var(--ink); }
+.enquiry-product-image { display: block; background: #fff; border: 1px solid rgba(27,40,28,.08); border-radius: 6px; overflow: hidden; }
+.enquiry-row img { display: block; width: 120px; height: 90px; object-fit: cover; }
+.enquiry-row a { color: var(--ink); font-weight: 900; }
+.enquiry-row a:hover { color: #9a7b15; }
+.enquiry-row .item-num { margin-top: 6px; color: #9a7b15; }
+.enquiry-product-info p:not(.item-num) { color: #64755f; font-size: 0.86rem; }
+.quantity-field { color: #64755f; font-weight: 800; }
+.quantity-control { display: grid; grid-template-columns: 42px minmax(0, 1fr) 42px; margin-top: 8px; border: 1px solid rgba(27,40,28,.13); border-radius: 6px; overflow: hidden; background: #fff; }
+.quantity-control button, .quantity-control input { min-height: 42px; border: 0; background: #fff; color: var(--ink); font: inherit; font-weight: 900; text-align: center; }
+.quantity-control button { cursor: pointer; }
+.quantity-control button:disabled { color: #bac4b4; cursor: not-allowed; }
+.quantity-control input { border-inline: 1px solid rgba(27,40,28,.10); width: 100%; }
+.quantity-control input[aria-invalid] { outline: 2px solid #ff9c8c; outline-offset: -2px; }
+.remove-enquiry { color: #9a7b15; background: transparent; font-weight: 900; cursor: pointer; }
+.remove-enquiry:hover { color: #6b530e; }
+.enquiry-notes-card { margin-top: 18px; padding: 18px; }
+.enquiry-notes-card label, #copy-enquiry-fallback label { display: block; color: #64755f; font-weight: 800; margin-bottom: 10px; }
+#enquiry-notes, #enquiry-copy-text { width: 100%; padding: 14px 16px; font: inherit; color: var(--ink); background: #f8f7f1; border: 1px solid rgba(27,40,28,.12); border-radius: 6px; resize: vertical; }
+#enquiry-notes::placeholder { color: #889582; }
+.enquiry-preview-card { margin-top: 14px; padding: 0; overflow: hidden; }
+.enquiry-preview-card summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 54px; padding: 0 16px; cursor: pointer; font-weight: 900; list-style: none; }
+.enquiry-preview-card summary::-webkit-details-marker { display: none; }
+.enquiry-preview-card summary:before { content: "+"; display: inline-grid; place-items: center; width: 24px; height: 24px; margin-right: 8px; background: #eef3e8; color: #526348; border-radius: 50%; font-weight: 900; }
+.enquiry-preview-card[open] summary:before { content: "-"; }
+.enquiry-preview-card summary span { display: inline-flex; align-items: center; margin-right: auto; }
+.enquiry-preview-card summary small { color: #7d8b77; font-size: 0.72rem; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; }
+#enquiry-preview { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 220px; overflow: auto; margin: 0 16px 16px; padding: 14px 16px; color: #dce3d8; background: #122016; border: 1px solid rgba(27,40,28,.16); border-radius: 6px; font: 600 0.86rem/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.enquiry-summary-panel { position: sticky; top: 120px; padding: 24px; }
+.enquiry-summary-panel p { color: #64755f; }
+.enquiry-summary-points { display: grid; gap: 8px; margin: 18px 0; padding: 16px 0; border-block: 1px solid rgba(27,40,28,.10); }
+.enquiry-actions { display: grid; gap: 10px; margin: 18px 0 0; }
+.enquiry-actions a, .enquiry-actions button { width: 100%; justify-content: center; min-height: 50px; }
+#enquiry-long, #enquiry-copy-status { margin-top: 12px; color: #64755f; font-weight: 700; }
+#copy-enquiry-fallback { grid-column: 1 / -1; padding: 18px; background: #fff; border: 1px solid rgba(27,40,28,.10); }
+.enquiry-empty-card { max-width: 680px; padding: 34px; margin: 34px 0 90px; }
+.enquiry-empty-card p { margin: 12px 0 22px; color: #64755f; }
 @media (max-width:600px) {
-    .enquiry-row { grid-template-columns: 80px minmax(0,1fr); gap: 12px; padding: 16px; }
-    .enquiry-row img { width: 80px; }
+    .enquiry-hero, .enquiry-layout { grid-template-columns: 1fr; gap: 18px; }
+    .quote-help-panel { padding: 18px; }
+    .enquiry-main-panel, .enquiry-summary-panel, .enquiry-empty-card { padding: 18px; }
+    .enquiry-summary-panel { position: static; }
+    .enquiry-panel-head { align-items: flex-start; flex-direction: column; }
+    .enquiry-row { grid-template-columns: 86px minmax(0,1fr); gap: 12px; padding: 12px; }
+    .enquiry-product-image, .enquiry-row img { width: 86px; height: 74px; }
+    .quantity-field { grid-column: 1 / -1; }
+    .remove-enquiry { justify-self: start; }
     .enquiry-notice { bottom: calc(90px + env(safe-area-inset-bottom)); }
-    .enquiry-actions > * { width: 100%; }
 }
 
 /* Bentex Agro Industries brand mark */

@@ -75,7 +75,7 @@
             document.querySelectorAll('.parts-catalog').forEach(section => {
                 section.hidden = !section.querySelector('.part-card:not([hidden])');
             });
-            document.getElementById('search-status').textContent = `${count} of ${cards.length} parts`;
+            document.getElementById('search-status').textContent = count === 0 ? 'No matching parts' : 'Showing matching parts';
             document.getElementById('search-empty').hidden = count !== 0;
             if (updateUrl) {
                 const url = new URL(window.location.href);

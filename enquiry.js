@@ -23,11 +23,13 @@
         document.querySelectorAll('[data-enquiry-count]').forEach(el=>{el.textContent=String(state.items.length);});
         document.querySelectorAll('[data-add-enquiry]').forEach(button=>{
             const added=state.items.some(item=>item.id===button.dataset.addEnquiry);
-            button.textContent=added?'Added · view enquiry':'Add to enquiry';
+            button.textContent=added?'Added · view enquiry':'+ Add to enquiry';
         });
         if (!list) return;
         document.getElementById('enquiry-empty').hidden=state.items.length>0;
         document.getElementById('enquiry-content').hidden=!state.items.length;
+        const summaryCount=document.getElementById('enquiry-summary-count');
+        if(summaryCount)summaryCount.textContent=`${state.items.length} selected ${state.items.length===1?'part':'parts'}`;
         const message=EnquiryUtils.message(state,products);
         document.getElementById('enquiry-preview').textContent=message;
         document.getElementById('enquiry-copy-text').value=message;
@@ -45,14 +47,26 @@
             for (const entry of state.items) {
                 const item=byId.get(entry.id);
                 const row=document.createElement('article');row.className='enquiry-row';
-                const image=document.createElement('img');image.src=item.image;image.alt=item.name;image.width=100;image.height=80;
-                const info=document.createElement('div');
+                const imageLink=document.createElement('a');imageLink.className='enquiry-product-image';imageLink.href=`products/${item.id.toLowerCase()}.html`;
+                const image=document.createElement('img');image.src=item.image;image.alt=item.name;image.width=120;image.height=90;
+                imageLink.append(image);
+                const info=document.createElement('div');info.className='enquiry-product-info';
                 const link=document.createElement('a');link.href=`products/${item.id.toLowerCase()}.html`;link.textContent=item.name;
                 const id=document.createElement('p');id.className='item-num';id.textContent=item.id;
-                info.append(link,id);
-                const label=document.createElement('label');label.textContent='Quantity';
+                const group=document.createElement('p');group.textContent=item.catalogGroup;
+                info.append(link,id,group);
+                const label=document.createElement('label');label.className='quantity-field';label.textContent='Quantity';
+                const control=document.createElement('div');control.className='quantity-control';
+                const minus=document.createElement('button');minus.type='button';minus.textContent='-';minus.setAttribute('aria-label',`Decrease quantity for ${item.name}`);
                 const input=document.createElement('input');input.type='number';input.min='1';input.max='9999';input.step='1';input.value=String(entry.quantity);input.required=true;
                 input.setAttribute('aria-label',`Quantity for ${item.name}`);
+                const plus=document.createElement('button');plus.type='button';plus.textContent='+';plus.setAttribute('aria-label',`Increase quantity for ${item.name}`);
+                function setQuantity(value){
+                    entry.quantity=Math.min(9999,Math.max(1,value));input.value=String(entry.quantity);minus.disabled=entry.quantity<=1;input.removeAttribute('aria-invalid');save();updateSummary();
+                }
+                minus.addEventListener('click',()=>{setQuantity(entry.quantity-1);announce('Quantity updated.');});
+                plus.addEventListener('click',()=>{setQuantity(entry.quantity+1);announce('Quantity updated.');});
+                minus.disabled=entry.quantity<=1;
                 input.addEventListener('input',()=>{
                     const value=input.valueAsNumber;
                     if (!input.validity.valid || !Number.isInteger(value)) {
@@ -61,17 +75,17 @@
                         // Reset custom validity to allow the next corrected input to validate.
                         input.reportValidity();input.setCustomValidity('');return;
                     }
-                    input.removeAttribute('aria-invalid');entry.quantity=value;save();updateSummary();announce('Quantity saved.');
+                    setQuantity(value);announce('Quantity saved.');
                 });
                 input.addEventListener('blur',()=>{input.value=String(entry.quantity);input.removeAttribute('aria-invalid');});
-                label.append(input);
-                const remove=document.createElement('button');remove.type='button';remove.className='btn-details';remove.textContent='Remove';remove.setAttribute('aria-label',`Remove ${item.name}`);
+                control.append(minus,input,plus);label.append(control);
+                const remove=document.createElement('button');remove.type='button';remove.className='remove-enquiry';remove.textContent='Remove';remove.setAttribute('aria-label',`Remove ${item.name}`);
                 remove.addEventListener('click',()=>{
                     const index=state.items.indexOf(entry);state.items.splice(index,1);save();render();announce(`${item.name} removed.`);
                     const next=list.querySelectorAll('button')[Math.min(index,state.items.length-1)];
                     if(next)next.focus();else document.querySelector('#enquiry-empty a').focus();
                 });
-                row.append(image,info,label,remove);list.append(row);
+                row.append(imageLink,info,label,remove);list.append(row);
             }
             notes.value=state.notes;
         }
