@@ -10,10 +10,23 @@ export async function buildSite(root = '.') {
     const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
     const url = page => page === 'home' ? 'index.html' : page === 'contact' ? 'contact.html' : page === 'enquiry' ? 'enquiry.html' : `categories/${page}.html`;
     const productUrl = item => `products/${item.id.toLowerCase()}.html`;
+    const thumbUrl = item => item.image.replace('images/catalog/', 'images/catalog/thumbs/').replace(/\.(?:jpe?g|png)$/i, '.jpg');
+    const titles = {home:'Quality Sprayer Parts',contact:'Contact Bentex','power-sprayer':'Power Sprayer Pump Parts','htp-pump':'HTP Pump Parts','battery-pump':'Battery Pump Parts'};
+    const categoryCounts = {
+        'power-sprayer': groups['grid-tu26'].length + groups['grid-139f'].length + groups['grid-gx35'].length,
+        'htp-pump': groups['grid-htp'].length,
+        'battery-pump': groups['grid-battery'].length
+    };
+    const catalogueNav = page => `<nav class="catalogue-nav" aria-label="Catalogue categories">
+<a class="${page==='power-sprayer'?'active ':''}catalogue-pill" href="${url('power-sprayer')}">Power Sprayer <span>${categoryCounts['power-sprayer']}</span></a>
+<a class="${page==='htp-pump'?'active ':''}catalogue-pill" href="${url('htp-pump')}">HTP Pump <span>${categoryCounts['htp-pump']}</span></a>
+<a class="${page==='battery-pump'?'active ':''}catalogue-pill" href="${url('battery-pump')}">Battery Pump <span>${categoryCounts['battery-pump']}</span></a>
+</nav>`;
+    const productSummary = item => `Genuine & imported ${item.catalogGroup} spare part from Bentex Agro Industries. Share the product ID while enquiring for faster compatibility confirmation.`;
     const card = item => `<article class="part-card reveal" data-product-id="${item.id}">
-<div class="part-img-wrapper"><img src="${escape(item.image)}" alt="${escape(item.name)}" loading="lazy" width="300" height="200"></div>
-<div class="part-info"><div class="item-num">${item.id}</div><h3>${escape(item.name)}</h3><p class="part-group">${escape(item.catalogGroup)}</p><p class="part-price">Contact for price</p><a class="btn-details" href="${productUrl(item)}">View details →</a></div>
-<button class="add-enquiry" type="button" data-add-enquiry="${item.id}">Add to enquiry</button><div class="card-actions"><a href="tel:+919266769669" class="btn-card-yellow">📞 CALL</a><a href="${escape(utils.enquiryLink(item))}" class="btn-card-green" target="_blank" rel="noopener noreferrer">💬 WHATSAPP</a></div></article>`;
+<div class="part-img-wrapper"><img src="${escape(thumbUrl(item))}" alt="${escape(item.name)}" loading="lazy" width="600" height="450"></div>
+<div class="part-info"><div class="product-badges"><span>${escape(item.catalogGroup)}</span><span>Direct enquiry</span></div><div class="item-num">${item.id}</div><h3>${escape(item.name)}</h3><p class="part-group">Sprayer spare part</p><p class="part-price">Contact for price</p><a class="btn-details" href="${productUrl(item)}">View details →</a></div>
+<button class="add-enquiry" type="button" data-add-enquiry="${item.id}">Add to enquiry</button><div class="card-actions"><a href="tel:+919266769669" class="btn-card-yellow" aria-label="Call about ${escape(item.name)}">📞 CALL</a><a href="${escape(utils.enquiryLink(item))}" class="btn-card-green" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp about ${escape(item.name)}">💬 WHATSAPP</a></div></article>`;
     let template = await readFile(resolve(root, 'site-template.html'), 'utf8');
     template = template.replace(/<dialog\b[\s\S]*?<\/dialog>/, '');
     template = template.replace(/<a href="#([^"]+)" data-page="[^"]+"/g, (_,page) => `<a href="${url(page)}" data-page="${page}"`);
@@ -24,7 +37,6 @@ export async function buildSite(root = '.') {
     template = template.replace('<!-- Footer -->', '<p class="enquiry-notice" id="enquiry-notice" role="status"></p><!-- Footer -->');
     const mains = [...template.matchAll(/<main\b[\s\S]*?<\/main>/g)].map(m => m[0]);
     const shell = template.replace(/<main\b[\s\S]*?<\/main>/g, (match, offset) => offset === template.indexOf(mains[0]) ? '<!-- PAGE_CONTENT -->' : '');
-    const titles = {home:'Quality Sprayer Parts',contact:'Contact Bentex','power-sprayer':'Power Sprayer Pump Parts','htp-pump':'HTP Pump Parts','battery-pump':'Battery Pump Parts'};
     const render = (content, page, title, nested, description) => {
         let html = shell.replace('<!-- PAGE_CONTENT -->', content);
         html = html.replace('<head>', `<head>\n    <base href="${nested ? '../' : './'}">`);
@@ -40,6 +52,7 @@ export async function buildSite(root = '.') {
         let content = mains.find(m=>m.includes(`id="page-${page}"`)).replace(/id="page-[^"]+" class="page-content(?: active)?"/, 'id="main-content" class="page-content active"');
         for (const [id,items] of Object.entries(groups)) content = content.replace(`<div class="parts-grid" id="${id}"></div>`, `<div class="parts-grid" id="${id}">${items.map(card).join('\n')}</div>`);
         if (!['home','contact'].includes(page)) {
+            content = content.replace('</div>\n\n        <div class="search-box">', `</div>\n\n        ${catalogueNav(page)}\n\n        <div class="search-box">`);
             content = content.replace(/<div class="search-box">[\s\S]*?<\/div>/, `<form class="search-box catalogue-tools" action="${url(page)}" method="get" data-catalog-search>
 <div><label for="catalog-query">Search parts</label><input id="catalog-query" name="q" type="search" placeholder="Name, product ID or catalogue group"></div>
 ${page==='power-sprayer'?'<div><label for="catalog-group">Catalogue group</label><select id="catalog-group" name="group"><option value="">All groups</option><option>TU-26</option><option>139-F</option><option>GX-35</option></select></div>':''}
@@ -51,7 +64,14 @@ ${page==='power-sprayer'?'<div><label for="catalog-group">Catalogue group</label
         await writeFile(resolve(root,url(page)),render(content,page,title,page!=='home'&&page!=='contact',`${title}. Browse Bentex Agro Industries parts and enquire by phone or WhatsApp.`));
     }
     for (const item of products) {
-        const content = `<main id="main-content" class="page-content active" tabindex="-1"><a class="back-btn" href="${url(item.category)}">← Back to ${escape(titles[item.category])}</a><div class="product-detail standalone-product"><div class="detail-image"><img src="${escape(item.image)}" alt="${escape(item.name)}" width="300" height="200"></div><div class="detail-info"><p class="item-num">${item.id}</p><h1>${escape(item.name)}</h1><dl><dt>Catalogue group</dt><dd>${escape(item.catalogGroup)}</dd><dt>Price</dt><dd>Contact for price</dd></dl><p class="detail-note">Share your pump model and the quantity you need. We’ll confirm compatibility, availability and pricing before you order.</p><div class="detail-actions"><button class="add-enquiry" type="button" data-add-enquiry="${item.id}">Add to enquiry</button><a href="tel:+919266769669" class="btn-yellow">Call to enquire</a><a href="${escape(utils.enquiryLink(item))}" class="btn-green" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a><button type="button" class="btn-details" id="copy-product-link">Copy product link</button><p id="copy-status" role="status"></p></div></div></div></main>`;
+        const groupItems = products.filter(candidate => candidate.catalogGroup === item.catalogGroup && candidate.id !== item.id).slice(0,4);
+        const related = groupItems.length ? `<section class="related-products"><div class="section-heading compact"><h2>Related ${escape(item.catalogGroup)} Parts</h2><p>Commonly checked with this catalogue group.</p></div><div class="related-grid">${groupItems.map(card).join('\n')}</div></section>` : '';
+        const content = `<main id="main-content" class="page-content active product-page" tabindex="-1"><a class="back-btn" href="${url(item.category)}">← Back to ${escape(titles[item.category])}</a>
+<article class="product-detail standalone-product">
+<div class="detail-gallery"><div class="detail-image"><img src="${escape(thumbUrl(item))}" alt="${escape(item.name)}" width="600" height="450"></div><div class="detail-thumbs"><img src="${escape(thumbUrl(item))}" alt="" width="120" height="90"><span>Catalogue image</span></div></div>
+<div class="detail-info product-buybox"><div class="product-badges"><span>${escape(item.catalogGroup)}</span><span>Genuine / imported</span></div><p class="item-num">SKU ${item.id}</p><h1>${escape(item.name)}</h1><p class="detail-summary">${escape(productSummary(item))}</p><dl class="detail-specs"><dt>Catalogue group</dt><dd>${escape(item.catalogGroup)}</dd><dt>Availability</dt><dd>Confirm on call</dd><dt>Price</dt><dd>Contact for price</dd><dt>Ordering</dt><dd>Call or WhatsApp</dd></dl><div class="detail-actions"><button class="add-enquiry" type="button" data-add-enquiry="${item.id}">Add to enquiry</button><a href="tel:+919266769669" class="btn-yellow">Call to enquire</a><a href="${escape(utils.enquiryLink(item))}" class="btn-green" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a><button type="button" class="btn-details" id="copy-product-link">Copy product link</button><p id="copy-status" role="status"></p></div></div>
+</article>
+<section class="product-info-panels"><div><h2>Compatibility Help</h2><p>Send your pump model, product ID and required quantity. Bentex will confirm fitment, availability and pricing before dispatch.</p></div><div><h2>Ordering Notes</h2><ul><li>Use product ID ${item.id} while enquiring.</li><li>Photos are for identification; confirm model compatibility before purchase.</li><li>Bulk and repeat orders can be prepared in the enquiry list.</li></ul></div></section>${related}</main>`;
         await writeFile(resolve(root,productUrl(item)),render(content,item.category,item.name,true,`${item.name} (${item.id}), ${item.catalogGroup}. Contact Bentex Agro Industries for price and availability.`).replace(`href="${url(item.category)}#main-content"`, `href="${productUrl(item)}#main-content"`));
     }
     const enquiry = await readFile(resolve(root,'enquiry-content.html'),'utf8');

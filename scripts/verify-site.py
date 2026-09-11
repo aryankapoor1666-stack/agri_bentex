@@ -37,5 +37,5 @@ for path,p in parsed.items():
         if target.fragment and file in parsed:
             assert target.fragment in parsed[file].ids,(path,'Missing fragment',link)
 assert sum(p.products for path,p in parsed.items() if path.parent.name=='categories')==222
-assert all(p.products==0 for path,p in parsed.items() if path.parent.name=='products')
-print('PASS: 228 HTML pages, nesting, unique IDs, one main per page, all local links/assets/fragments and 222 static catalogue cards.')
+assert all(p.products<=4 for path,p in parsed.items() if path.parent.name=='products')
+print('PASS: 228 HTML pages, nesting, unique IDs, one main per page, all local links/assets/fragments, 222 category cards and related product cards.')
